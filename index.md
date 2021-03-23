@@ -17,10 +17,9 @@ through the project organization and documentation that will make an efficient b
 possible. Not only will this make you a more effective bioinformatics researcher, it also prepares 
 your data and project for publication, as grant agencies and publishers increasingly require this information.
 
-In this lesson, we'll be using data from a study of experimental evolution using 
+In this lesson, we'll be using data from a study of experimental evolution using data from [Cuatro Ciénegas Basin](https://elifesciences.org/articles/49816). In this study there are several types of files:
 <!--- just [Lake Hazen Sediment and Soil Metagenomes](http://www.datacarpentry.org/organization-genomics/data/)--->
-data from [Cuatro Ciénegas Basin](https://elifesciences.org/articles/49816). 
-In this study there are several types of files:
+
 
 - spreadsheet data from the experiment that tracks the microbiome and their phenotype over time
 - spreadsheet data with information on the samples that were sequenced, the names of the samples, 
