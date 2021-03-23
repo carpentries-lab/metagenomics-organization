@@ -5,7 +5,7 @@ root: .
 
 Good data organization is the foundation of any research project. It not only sets you up well for an analysis, 
 but it also makes it easier to come back to the project later and share with collaborators, including
-your most important collaborator - future you.  
+your most important collaborator - **future you**.  
   
   
 Organizing a project that includes sequencing involves many components. There's the experimental setup 
@@ -16,11 +16,11 @@ digital records in the same way we have a lab notebook and sample freezer. In th
 through the project organization and documentation that will make an efficient bioinformatics workflow 
 possible. Not only will this make you a more effective bioinformatics researcher, it also prepares 
 your data and project for publication, as grant agencies and publishers increasingly require this information.
-
+  
+  
 In this lesson, we'll be using data from a study of experimental evolution using data from [Cuatro Ciénegas Basin](https://elifesciences.org/articles/49816). In this study there are several types of files:
 <!--- just [Lake Hazen Sediment and Soil Metagenomes](http://www.datacarpentry.org/organization-genomics/data/)--->
-
-
+  
 - spreadsheet data from the experiment that tracks the microbiome and their phenotype over time
 - spreadsheet data with information on the samples that were sequenced, the names of the samples, 
   how they were prepared and the sequencing conditions
