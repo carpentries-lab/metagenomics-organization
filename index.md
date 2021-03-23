@@ -5,8 +5,9 @@ root: .
 
 Good data organization is the foundation of any research project. It not only sets you up well for an analysis, 
 but it also makes it easier to come back to the project later and share with collaborators, including
-your most important collaborator - future you.
-
+your most important collaborator - future you.  
+  
+  
 Organizing a project that includes sequencing involves many components. There's the experimental setup 
 and conditions metadata, measurements of experimental parameters, sequencing preparation and sample 
 information, the sequences themselves and the files and workflow of any bioinformatics analysis. 
@@ -20,8 +21,8 @@ In this lesson, we'll be using data from a study of experimental evolution using
 [Lake Hazen Sediment and Soil Metagenomes](http://www.datacarpentry.org/organization-genomics/data/). 
 In this study there are several types of files:
 
-- spreadsheet data from the experiment that tracks the strains and their phenotype over time
-- spreadsheet data with information on the samples that were sequenced - the names of the samples, 
+- spreadsheet data from the experiment that tracks the microbiome and their phenotype over time
+- spreadsheet data with information on the samples that were sequenced, the names of the samples, 
   how they were prepared and the sequencing conditions
 - the sequence data
 
@@ -40,9 +41,8 @@ In this lesson you will learn:
 >
 > This lesson assumes no prior experience with the tools covered in the workshop. 
 > However, learners are expected to have some familiarity with biological concepts,
-> including the 
-> concept of 
-ic variation within a population. Participants should bring their laptops and plan to participate actively. 
+> such as that each living organism has a genome. 
+> Participants should bring their laptops and plan to participate actively. 
 >
 > This lesson is part of a workshop that uses data hosted on an Amazon Machine Instance (AMI). Workshop participants will be given 
 > information on how
