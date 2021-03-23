@@ -16,7 +16,11 @@ keypoints:
 
 # Introduction
 
-When we think about the data for a sequencing project, we often start by thinking about the sequencing data that we get back from the sequencing center, but just as important, if not more so, is the data you've generated about the sequences before it ever goes to the sequencing center. This is the data about the data, often called the metadata. Without the information about what you sequenced, the sequence data itself is useless.  
+When we think about the data for a sequencing project, we often start by thinking about 
+the sequencing data that we get back from the sequencing center, but just as important, 
+if not more so, is the data you've generated about the sequences before it ever goes to 
+the sequencing center. This is the data about the data, often called the metadata. 
+Without the information about what you sequenced, the sequence data itself is useless.  
 
 > ## Discussion
 > With the person next to you, discuss:
@@ -25,21 +29,29 @@ When we think about the data for a sequencing project, we often start by thinkin
 >
 > > ## Solution
 > > Types of files and information you have generated:  
-> > - Spreadsheet or tabular data with the data from your experiment and whatever you were measuring for your study.
+> > - Spreadsheet or tabular data with the data from your experiment and 
+> >   whatever you were measuring for your study.
 > > - Lab notebook notes about how you conducted those experiments.
-> > - Spreadsheet or tabular data about the samples you sent off for sequencing. Sequencing centers often have a particular format they need with the name of the sample, DNA concentration and other information.
-> > - Lab notebook notes about how you prepared the DNA/RNA for sequencing and what type of sequencing you're doing, e.g. paired end Illumina HiSeq.
+> > - Spreadsheet or tabular data about the samples you sent off for sequencing. 
+> > Sequencing centers often have a particular format they need 
+> > with the name of the sample, DNA concentration and other information.
+> > - Lab notebook notes about how you prepared the DNA/RNA for sequencing and what 
+> > type of sequencing you're doing, e.g. paired end Illumina HiSeq.
 > > There likely will be other ideas here too.
 > > Was this more information and data than you were expecting?
 > {: .solution}
 {: .challenge}
 
-All of the data and information just discussed can be considered metadata, i.e. data about the data. We want to follow a few guidelines for metadata.
+All of the data and information just discussed can be considered metadata, 
+i.e. data about the data. We want to follow a few guidelines for metadata.
 
 ## Notes
 
-Notes about your experiment, including how you prepared your samples for sequencing, should be in your lab notebook, whether that's a physical lab notebook or electronic lab notebook. For guidelines on good lab notebooks, see the Howard Hughes Medical Institute "Making the Right Moves: A Practical Guide to Scientifıc Management for Postdocs and New Faculty" section on
-[Data Management and Laboratory Notebooks](http://www.hhmi.org/sites/default/files/Educational%20Materials/Lab%20Management/Making%20the%20Right%20Moves/moves2_ch8.pdf).
+Notes about your experiment, including how you prepared your samples for sequencing, 
+should be in your lab notebook, whether that's a physical lab notebook or electronic lab notebook. 
+For guidelines on good lab notebooks, see the Howard Hughes Medical Institute 
+"Making the Right Moves: A Practical Guide to Scientifıc Management for Postdocs and New Faculty" 
+section on [Data Management and Laboratory Notebooks](http://www.hhmi.org/sites/default/files/Educational%20Materials/Lab%20Management/Making%20the%20Right%20Moves/moves2_ch8.pdf).
 
 
 Including dates on your lab notebook pages, the samples themselves and in
@@ -64,22 +76,30 @@ What type of data to collect depends on your experiment and there are often guid
 > Many fields have particular ways that they structure their metadata so it's
 consistent and can be used across the field.
 >
-> The Digital Curation Center maintains [a list of metadata  standards](http://www.dcc.ac.uk/resources/metadata-standards/list) and some that are particularly relevant for genomics data are available from the [Genomics Standards Consortium](http://gensc.org/projects/).
+> The Digital Curation Center maintains [a list of metadata  standards](http://www.dcc.ac.uk/resources/metadata-standards/list) 
+> and some that are particularly relevant for genomics data are available from the [Genomics Standards Consortium](http://gensc.org/projects/).
 >
-> If there aren't metadata standards already, you can think about what the minimum amount of information is that someone would need to know about your data to be able to work with it, without talking to you.
+> If there aren't metadata standards already, you can think about what the 
+> minimum amount of information is that someone would need to know about your data 
+> to be able to work with it, without talking to you.
 >
 {: .callout}
 
 ### Structuring data in spreadsheets
 
-Independent of the type of data you're collecting, there are standard ways to enter that data into the spreadsheet, to make it easier to analyze later. We often enter data that makes it easy for us as humans to read and work with it, because we're human! Computers need data structured in a way that they can use it. So to use this data in a computational workflow, we need to think like computers when we use spreadsheets.
+Independent of the type of data you're collecting, there are standard ways to enter that data 
+into the spreadsheet, to make it easier to analyze later. We often enter data that makes it easy 
+for us as humans to read and work with it, because we're human! Computers need data structured in 
+a way that they can use it. So to use this data in a computational workflow, we need to think 
+like computers when we use spreadsheets.
 
 The cardinal rules of using spreadsheet programs for data:
 
 - Leave the raw data raw - don’t change it!
 - Put each observation or sample in its own row.
 - Put all your variables in columns - the thing that vary between samples, like ‘strain’ or ‘DNA-concentration’.
-- Have column names be explanatory, but without spaces. Use '-', '_' or [camel case](https://en.wikipedia.org/wiki/Camel_case) instead of a space. For instance 'library-prep-method' or 'LibraryPrep'is better than 'library preparation method' or 'prep', because computers interpret spaces in particular ways.
+- Have column names be explanatory, but without spaces. Use '-', '_' or 
+- [camel case](https://en.wikipedia.org/wiki/Camel_case) instead of a space. For instance 'library-prep-method' or 'LibraryPrep'is better than 'library preparation method' or 'prep', because computers interpret spaces in particular ways.
 - Don’t combine multiple pieces of information in one cell. Sometimes it just seems like one thing, but think if that’s the only way
 you’ll want to be able to use or sort that data. For example, instead of having a column with species and strain name (e.g. *E. coli* 
 K12) you would have one column with the species name (*E. coli*) and another with the strain name (K12). Depending on the type of 
