@@ -52,10 +52,9 @@ that has a link to the 40 SRA files for this subproject.
 1. Make sure you access the dataset from the provided link: [https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJEB22811](https://www.ncbi.nlm.nih.gov/Traces/study/?query_key=1&WebEnv=MCID_605b7fb46f5f14319c387ae3&o=acc_s%3Aa). This is NCBI’s new cloud-based SRA interface. You will be presented with a page for the overall BioProject accession PRJEB22811 - this is a collection of all the experimental data. 
 
 2. At the top of the page is an option to switch back to the “old Run Selector”. We will discuss that later.
-
 ![ncbi-old-runtable](../fig/03_ncbi_new_top.PNG)
 
-3. Notice on this page there are three sections. “Common Fields” “Select”, and “Found 20 Items”. Within “Found 20 Items”, click on the first Run Number (Column “run” Row “1”). 
+3. Notice on this page there are three sections. “Common Fields” “Select”, and “Found 40 Items”. Within “Found 40 Items”, click on the first Run Number (Column “run” Row “1”). 
 
 ![ncbi-new-tables2.png](../fig/03_ncbi_new_tables2.PNG)
 
