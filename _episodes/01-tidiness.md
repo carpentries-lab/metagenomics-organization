@@ -78,6 +78,7 @@ consistent and can be used across the field.
 >
 > The Digital Curation Center maintains [a list of metadata  standards](http://www.dcc.ac.uk/resources/metadata-standards/list) 
 > and some that are particularly relevant for genomics data are available from the [Genomics Standards Consortium](http://gensc.org/projects/).
+> In particular, assembly quality and an estimate of genome completness and contamination are [standars for Metagenome-Assambled-Genomes](https://www.nature.com/articles/nbt.3893) (MAGs).  
 >
 > If there aren't metadata standards already, you can think about what the 
 > minimum amount of information is that someone would need to know about your data 
