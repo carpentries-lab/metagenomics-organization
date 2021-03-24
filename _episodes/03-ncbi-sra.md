@@ -67,7 +67,7 @@ that has a link to the 40 SRA files for this subproject.
 
 ![ncbi-run-browser.png](../fig/03_ncbi_new_run_browser.png)
 
-5. Use the browser’s back button to go back to the 'previous page'. As shown in the figure below, the second section of the page (“Select”) has the **Total** row showing you the current number of “Runs”, “Bytes”, and “Bases” in the dataset to date. On 2020-04-27 there were 312 runs, 109.58 Gb data, and 177.17 Gbases of data. 
+5. Use the browser’s back button to go back to the 'previous page'. As shown in the figure below, the second section of the page (“Select”) has the **Total** row showing you the current number of “Runs”, “Bytes”, and “Bases” in the dataset to date. On 2012-06-27 there were 40 runs, 9.86 GBytes of data, and 19.61 Gbases of data. 
 
 ![ncbi-new-metadata.png](../fig/03_ncbi_new_metadata.png)
 
