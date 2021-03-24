@@ -49,7 +49,7 @@ that has a link to the 40 SRA files for this subproject.
 
 ## Download the Okie SRA data from the (newer) SRA Run Selector Table
 
-1. Make sure you access the dataset from the provided link: [https://www.ncbi.nlm.nih.gov/Traces/study/?query_key=1&WebEnv=MCID_605b7fb46f5f14319c387ae3&o=acc_s%3Aa](https://www.ncbi.nlm.nih.gov/Traces/study/?query_key=1&WebEnv=MCID_605b7fb46f5f14319c387ae3&o=acc_s%3Aa). This is NCBI’s new cloud-based SRA interface. You will be presented with a page for the overall BioProject accession PRJEB22811 - this is a collection of all the experimental data. 
+1. Make sure you access the dataset from the provided link: [https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJEB22811](https://www.ncbi.nlm.nih.gov/Traces/study/?query_key=1&WebEnv=MCID_605b7fb46f5f14319c387ae3&o=acc_s%3Aa). This is NCBI’s new cloud-based SRA interface. You will be presented with a page for the overall BioProject accession PRJEB22811 - this is a collection of all the experimental data. 
 
 2. At the top of the page is an option to switch back to the “old Run Selector”. We will discuss that later.
 
