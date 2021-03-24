@@ -49,20 +49,20 @@ that has a link to the 40 SRA files for this subproject.
 
 ## Download the Okie SRA data from the (newer) SRA Run Selector Table
 
-1. Make sure you access the dataset from the provided link: [https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJEB22811](https://www.ncbi.nlm.nih.gov/Traces/study/?query_key=1&WebEnv=MCID_605b7fb46f5f14319c387ae3&o=acc_s%3Aa). This is NCBI’s new cloud-based SRA interface. You will be presented with a page for the overall BioProject accession PRJEB22811 - this is a collection of all the experimental data. 
+1 Make sure you access the dataset from the provided link: [https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJEB22811](https://www.ncbi.nlm.nih.gov/Traces/study/?query_key=1&WebEnv=MCID_605b7fb46f5f14319c387ae3&o=acc_s%3Aa). This is NCBI’s new cloud-based SRA interface. You will be presented with a page for the overall BioProject accession PRJEB22811 - this is a collection of all the experimental data. 
 
-2. At the top of the page is an option to switch back to the “old Run Selector”. We will discuss that later.
+2 At the top of the page is an option to switch back to the “old Run Selector”. We will discuss that later.
 ![ncbi-old-runtable](../fig/03_ncbi_new_top.PNG)
 
-3. Notice on this page there are three sections. “Common Fields” “Select”, and “Found 40 Items”. Within “Found 40 Items”, click on the first Run Number (Column “run” Row “1”). 
+3 Notice on this page there are three sections. “Common Fields” “Select”, and “Found 40 Items”. Within “Found 40 Items”, click on the first Run Number (Column “run” Row “1”). 
 
 ![ncbi-new-tables2.png](../fig/03_ncbi_new_tables2.PNG)
 
-4. This will take you to a page that is a run browser. Take a few minutes to examine some of the descriptions on the page.
+4 This will take you to a page that is a run browser. Take a few minutes to examine some of the descriptions on the page.
 
 ![ncbi-run-browser.png](../fig/03_ncbi_new_run_browser.PNG)
 
-5. Use the browser’s back button to go back to the 'previous page'. As shown in the figure below, the second section of the page (“Select”) has the **Total** row showing you the current number of “Runs”, “Bytes”, and “Bases” in the dataset to date. On 2012-06-27 there were 40 runs, 9.86 GBytes of data, and 19.61 Gbases of data. 
+5 Use the browser’s back button to go back to the 'previous page'. As shown in the figure below, the second section of the page (“Select”) has the **Total** row showing you the current number of “Runs”, “Bytes”, and “Bases” in the dataset to date. On 2012-06-27 there were 40 runs, 9.86 GBytes of data, and 19.61 Gbases of data. 
 
 ![ncbi-new-metadata.png](../fig/03_ncbi_new_metadata.PNG)
 
