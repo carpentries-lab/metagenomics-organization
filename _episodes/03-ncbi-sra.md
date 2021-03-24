@@ -36,8 +36,6 @@ The **image below** shows an excerpt from the paper that includes information on
 
 1. Notice that the paper references "PRJEB22811" as a "BioProject" at NCBI. If you go to the [NCBI website](https://www.ncbi.nlm.nih.gov/) and search for "PRJEB22811" you will be shown a link to the "Cuatro Cienegas Lagunita Fertilization Experiement" BioProject. Here is the link to that database: [https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB22811](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB22811).
 
-(../fig/03_paper_header.png). ############ Revisar esta foto
-
 2. Once on the BioProject page, scroll down to the table under **"Project information:"**. *"[PRJEB22811](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB22811/)*. 
 
 3. This will take you to a page with a table **"Project Data"** 
@@ -45,8 +43,6 @@ that has a link to the 40 SRA files for this subproject.
 
 4. Click on the number 
 ["40"](https://www.ncbi.nlm.nih.gov/sra?linkname=bioproject_sra_all&from_uid=420272) and it will take you to the SRA page for this subproject. 
-
-### ![03_send_results.png]
 
 5. For a more organized table, go to ["SRA Run"](https://www.ncbi.nlm.nih.gov/Traces/study/) and type the BioProject accession ID. This will be used in the next section. The run selector is being updated, at this point you can either use the redesigned SRA Run Selector (recommended) or revert to the old Run Selector.
 
