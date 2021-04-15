@@ -39,6 +39,7 @@ Without the information about what you sequenced, the sequence data itself is us
 > > type of sequencing you're doing, e.g. paired end Illumina HiSeq.
 > > There likely will be other ideas here too.
 > > Was this more information and data than you were expecting?
+> > 
 > {: .solution}
 {: .challenge}
 
