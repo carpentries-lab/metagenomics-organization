@@ -134,6 +134,7 @@ analysis you want to do, you may even separate the genus and species names into 
 > >
 > > [Cleaned spreadsheet](https://raw.githubusercontent.com/datacarpentry/wrangling-genomics/gh-pages/files/Ecoli_metadata_composite.tsv)
 > > Download the file using right-click (PC)/command-click (Mac). 
+> >
 > {: .solution}
 {: .challenge}
 
