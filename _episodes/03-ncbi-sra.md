@@ -28,7 +28,7 @@ See the figures below for how information about data access is provided within t
 
 The **above image** shows the title of the study, as well as the authors.
 
-<img style='border:1px solid #000000' src="../fig/03_paper_header.PNG" width="800"/>
+<img style='border:1px solid #000000' src="../fig/paper_header_03.PNG" width="800"/>
 
 The **image below** shows an excerpt from the paper that includes information on how to locate the sequence data. In this case, the text appears just before the reference section.
 
@@ -113,7 +113,8 @@ The SRA does not support direct download of fastq files from its webpage. Howeve
 
 2. In the search bar, type in `PRJEB22811`. Make sure there are no spaces after the BioProject accession number, and press search.
 
-3. You will see a table with information about the sample. In the table, there is a header "FASTQ files (FTP)". If you wanted to download the files to your computer, you could click on the links to download the files. Alternatively, right click and copy the URL to save it for later. We don't need to download these files right now, and because they are large we won't put them on our computers now.
+3. You will see a table with information about the sample. In the table, there is a 
+"FASTQ files (FTP)". If you wanted to download the files to your computer, you could click on the links to download the files. Alternatively, right click and copy the URL to save it for later. We don't need to download these files right now, and because they are large we won't put them on our computers now.
 
 We don't recommend downloading large numbers of sequencing files this way. For that, the NCBI has made a software package called the `sra-toolkit`. However, for a couple files, it's often easier to go through the ENA. 
 
