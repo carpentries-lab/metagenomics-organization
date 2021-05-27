@@ -10,6 +10,7 @@ objectives:
 - "Understand the importance of metadata and potential metadata standards."
 - "Explore common formatting challenges in spreadsheet data."
 keypoints:
+- "Assigning and keeping track of appropriate unique ID identifiers must be a well-thought process."
 - "Metadata is key for you and others to be able to work with your data."
 - "Tabular data needs to be structured to be able to work with it effectively."
 ---
