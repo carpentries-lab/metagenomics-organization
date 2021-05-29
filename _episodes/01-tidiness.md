@@ -70,9 +70,15 @@ day, or if you do, you're aware of it and give them names like A and B.
 
 ## Data about the experiment
 
-Data about the experiment is usually collected in spreadsheets, like Excel.
+Data about the experiment is usually collected in spreadsheets, like Excel. The file containing this experiment information is often called ´´README´´. Having this information is very convenient when you're working on a team and more people start to join the poject even at different steps of the experiment. This may help better your collaborators to easy understand what the data is about. 
 
-What type of data to collect depends on your experiment and there are often guidelines from metadata standards.
+What type of data to collect depends on your experiment and there are often guidelines from metadata standards. The Cornell University gives us an useful guide to learn how to write a readme. You can check the template in the following. # Subir archivo a carpeta files
+
+> ## Discussion
+> Now that we have learned the format and the importance of the ´´README´´ file. Work in teams and discuss the main helpful tips to make your own data file in Excel. [Here](../files/01_MGRAST_DATA.xsxl) you can access to the data file information. Use the template and modificate the different sheets to facilitate your work.
+>
+{: .call out}
+
 
 > ## Metadata standards
 > Many fields have particular ways that they structure their metadata so it's
@@ -109,9 +115,7 @@ K12) you would have one column with the species name (*E. coli*) and another wit
 analysis you want to do, you may even separate the genus and species names into distinct columns.
 - Export the cleaned data to a text-based format like CSV (comma-separated values) format. This ensures that anyone can use the data, and is required by most data repositories.
 
-[![01-01-01](../fig/01-01-01.png)]
-
-(https://github.com/datacarpentry/organization-genomics/raw/gh-pages/files/Ecoli_metadata_composite_messy.xlsx)
+[![Messy spreadsheet](../fig/01_tidiness_datasheet_example_messy.png)](https://github.com/datacarpentry/organization-genomics/raw/gh-pages/files/Ecoli_metadata_composite_messy.xlsx)
 
 > ## Discussion
 > This is some potential spreadsheet data generated about a sequencing experiment. With the person next to you, for about 2 minutes, discuss some of the problems with the spreadsheet data shown above. You can look at the image, or download the file to your computer via this [link](https://github.com/datacarpentry/organization-genomics/raw/gh-pages/files/Ecoli_metadata_composite_messy.xlsx) and open it in a spreadsheet reader like Excel. 
