@@ -30,7 +30,7 @@ methods and approaches we need in bioinformatics are the same ones we need at th
 >
 > What challenges do you think you'll face (or have already faced) in working with a large sequence dataset?  
 > What is your strategy for saving and sharing your sequence files?  
-> How can you be sure that your raw data have not been unintentionally corrupted?  
+> How can you be sure that your raw data has not been unintentionally corrupted?  
 > Where/how will you (did you) analyze your data - what software, what computer(s)?  
 {: .challenge}
 
@@ -45,7 +45,7 @@ facility. Take a look at the following example submission spreadsheet.
 Download the file using right-click (PC)/command-click (Mac). This is a tab-delimited text file. Try opening it
 with Excel or another spreadsheet program.
 
-> ## Exercise
+> ## Exercise 1: Identifying errors
 >
 > 1. What are some errors you can spot in the data? Typos, missing data, inconsistencies?
 > 2. What improvements could be made to the choices in naming?
@@ -83,7 +83,7 @@ Excel file:
 - [Sequencing results - text](../files/sequencing_results_metadata.txt)
 - [Sequencing results - Excel](../files/sequencing_results_metadata.xls)
 
-> ## Exercise
+> ## Exercise 2: Exploring sequencing metadata
 >
 > 1. How are these samples organized?
 > 2. If you wanted to relate file names to the sample names submitted above (e.g. wild type...) could you do so?
@@ -110,7 +110,7 @@ The raw data you get back from the sequencing center is the foundation of your s
 
 - Store the data in a place that is accessible by you and other members of your lab. At a minimum, you and the head of your lab should have access.
 - Store the data in a place that is redundantly backed up. It should be backed up in two locations that are in different physical areas.
-- Leave the raw data raw. You will be working with this data, but you don't want to modify this stored copy of the original data. If you modify the data, you'll never be able to access those original files. We will cover how to avoid accidentally changing files in a later lesson in this workshop [(see File Permissions)](https://datacarpentry.org/shell-genomics/03-working-with-files/#file-permissions).
+- Leave the raw data raw. You will be working with this data, but you don't want to modify this stored copy of the original data. If you modify the data, you'll never be able to access those original files. We will cover how to avoid accidentally changing files in a later lesson in this workshop [(see File Permissions)](https://nselem.github.io/shell-metagenomics/02-the-filesystem/index.html).
 
 #### Some data storage solutions
 
@@ -118,7 +118,9 @@ If you have a local high performance computing center or data storage facility o
 
 If you don't have access to these resources, you can back up on hard drives. Have two backups, and keep the hard drives in different physical locations.
 
-You can also use resources like [Amazon S3](https://aws.amazon.com/s3/),  [Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/storage/blobs/),  [Google Cloud](https://cloud.google.com/storage/) or others for cloud storage. The [open science framework](https://osf.io) is a free option for storing files up to 5 GB. See more in the lesson ["Introduction to Cloud Computing for Genomics"](http://www.datacarpentry.org/cloud-genomics/04-which-cloud/).
+You can also use cloud resources, with them you put your information in the cloud so you wont lose it even if you lose your computer. Some of them are [Amazon S3](https://aws.amazon.com/s3/),  [Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/storage/blobs/),  [Google Cloud](https://cloud.google.com/storage/) or others for cloud storage. The [open science framework](https://osf.io) is a free option for storing files up to 5 GB. See more in the lesson ["Introduction to Cloud Computing for Genomics"](http://www.datacarpentry.org/cloud-genomics/04-which-cloud/).
+
+Apart from these cloud resources that are specifically for storage, there are other cloud services that allow you to have computing capacity for data processing and analysis, larger than the capacity of a common personal computer, like the [Amazon Web Services](https://aws.amazon.com/es/) instances that we will use during this workshop. 
 
 # Summary
 
