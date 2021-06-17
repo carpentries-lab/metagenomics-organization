@@ -19,7 +19,7 @@ keypoints:
 
 When we think about the data for a sequencing project, we often start by thinking about 
 the sequencing data that we get back from the sequencing center, but just as important, 
-if not more so, is the data you've generated about the sequences before it ever goes to 
+if not more so, is the data you've generated about the sequences before they ever go to 
 the sequencing center. This is the data about the data, often called the metadata. 
 Without the information about what you sequenced, the sequence data itself is useless.  
 
