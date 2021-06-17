@@ -20,7 +20,7 @@ and are working with high-throughput (NGS) sequence data for the first time. In 
 methods and approaches we need in bioinformatics are the same ones we need at the bench or in the field -
 *planning, documenting, and organizing* are the key to good reproducible science.  
 
-> ## Discussion
+> ## Discussion 1
 >
 > Before we go any further, here are some important questions to consider. If you are learning at a workshop,
 > please discuss these questions with your neighbor.
