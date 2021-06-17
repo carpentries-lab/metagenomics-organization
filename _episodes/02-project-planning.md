@@ -118,7 +118,7 @@ If you have a local high performance computing center or data storage facility o
 
 If you don't have access to these resources, you can back up on hard drives. Have two backups, and keep the hard drives in different physical locations.
 
-You can also use cloud resources, with them you put your information in the cloud so you wont lose it even if you lose your computer. Some of them are [Amazon S3](https://aws.amazon.com/s3/),  [Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/storage/blobs/),  [Google Cloud](https://cloud.google.com/storage/) or others for cloud storage. The [open science framework](https://osf.io) is a free option for storing files up to 5 GB. See more in the lesson ["Introduction to Cloud Computing for Genomics"](http://www.datacarpentry.org/cloud-genomics/04-which-cloud/).
+You can also use cloud resources, with them you put your information in the cloud so you won't lose it even if you lose your computer. Some of them are [Amazon S3](https://aws.amazon.com/s3/),  [Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/storage/blobs/),  [Google Cloud](https://cloud.google.com/storage/) or others for cloud storage. The [open science framework](https://osf.io) is a free option for storing files up to 5 GB. See more in the lesson ["Introduction to Cloud Computing for Genomics"](http://www.datacarpentry.org/cloud-genomics/04-which-cloud/).
 
 Apart from these cloud resources that are specifically for storage, there are other cloud services that allow you to have computing capacity for data processing and analysis, larger than the capacity of a common personal computer, like the [Amazon Web Services](https://aws.amazon.com/es/) instances that we will use during this workshop. 
 
