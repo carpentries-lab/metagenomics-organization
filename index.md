@@ -33,9 +33,9 @@ In this lesson you will learn:
 
 - How to structure your metadata, tabular data and information about the experiment. 
 - The metadata is the information about the experiment and the samples you're sequencing.
-- How to prepare for, understand, organize and store the sequencing data that comes back from the sequencing center
-- How to access and download publicly available data that may need to be used in your bioinformatics analysis
-- The concepts of organizing the files and documenting the workflow of your bioinformatics analysis
+- How to prepare for, understand, organize and store the sequencing data that comes back from the sequencing center.
+- How to access and download publicly available data that may need to be used in your bioinformatics analysis.
+- The concepts of organizing the files and documenting the workflow of your bioinformatics analysis.
 
 > ## Getting Started
 >
@@ -47,7 +47,7 @@ In this lesson you will learn:
 > This lesson is part of a workshop that uses data hosted on an Amazon Machine Instance (AMI). Workshop participants will be given 
 > information on how
 > to log-in to the AMI during the workshop. Learners using these materials for self-directed study will need to set up their own
-> AMI. Information on setting up an AMI and accessing the required data is provided on the [Metagenomics Workshop setup page](https://carpentries-incubator.github.io/metagenomics/setup.html).
+> AMI. Information on setting up an AMI and accessing the required data is provided on the [Metagenomics Workshop Setup page](https://carpentries-incubator.github.io/metagenomics/setup.html).
 {: .prereq}
 
 > ## For Instructors
