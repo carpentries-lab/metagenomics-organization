@@ -54,7 +54,7 @@ that has a link to the 40 SRA files for this subproject.
 2 At the top of the page is an option to switch back to the “old Run Selector”. We will discuss that later.
 ![01-03-03.png](../fig/01-03-03.png)
 
-3 Notice on this page there are three sections. “Common Fields” “Select”, and “Found 40 Items”. Within “Found 40 Items”, click on the first Run Number (Column “run” Row “1”). 
+3 Notice on this page there are three sections. “Common Fields” “Select”, and “Found 40 Items”. Within “Found 40 Items”, click on the first Run number (Column “Run”, Row “1”). 
 
 ![01-03-04.png](../fig/01-03-04.png)
 
