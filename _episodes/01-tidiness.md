@@ -23,7 +23,7 @@ if not more so, is the data you've generated about the sequences before they eve
 the sequencing center. This is the data about the data, often called the metadata. 
 Without the information about what you sequenced, the sequence data itself is useless.  
 
-> ## Discussion
+> ## Discussion 1
 > With the person next to you, discuss:
 >
 > What kinds of data and information have you generated before you sent your DNA/RNA off for sequencing?
@@ -74,7 +74,7 @@ Data about the experiment is usually collected in spreadsheets, like Excel. The 
 
 What type of data to collect depends on your experiment and there are often guidelines from metadata standards. The Cornell University gives us a useful [guide](https://data.research.cornell.edu/content/readme#dataspecific) to learn how to write a README. You can check the template in the following [file](https://github.com/nselem/organization-metagenomics/blob/master/files/AUTHOR_DATASET_ReadmeTemplate.txt)
 
-> ## Discussion
+> ## Discussion 2
 > Now that we have learned the format and the importance of the **README** file. Work in teams and discuss the main helpful tips to make your own data file in Excel. [Here](../files/01_MGRAST_DATA.xlsx) you can access to the data file information. Use the template and modify the different sheets to facilitate your work.
 >
 >
@@ -122,8 +122,8 @@ analysis you want to do, you may even separate the genus and species names into 
 
 [![Messy spreadsheet](../fig/01_tidiness_datasheet_example_messy.png)](https://github.com/datacarpentry/organization-genomics/raw/gh-pages/files/Ecoli_metadata_composite_messy.xlsx)
 
-> ## Discussion
-> This is some potential spreadsheet data generated about a sequencing experiment. With the person next to you, for about 2 minutes, discuss some of the problems with the spreadsheet data shown above. You can look at the image, or download the file to your computer via this [link](https://github.com/datacarpentry/organization-genomics/raw/gh-pages/files/Ecoli_metadata_composite_messy.xlsx) and open it in a spreadsheet reader like Excel. 
+> ## Discussion 3
+> This is a potential spreadsheet data generated about a sequencing experiment. With the person next to you, for about 2 minutes, discuss some of the problems with the spreadsheet data shown above. You can look at the image, or download the file to your computer via this [link](https://github.com/datacarpentry/organization-genomics/raw/gh-pages/files/Ecoli_metadata_composite_messy.xlsx) and open it in a spreadsheet reader like Excel. 
 >
 >
 > > ## Solution
