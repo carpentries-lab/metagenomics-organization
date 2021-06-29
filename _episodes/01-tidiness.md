@@ -70,7 +70,7 @@ day, or if you do, you're aware of it and give them names like A and B.
 
 ## Data about the experiment
 
-Data about the experiment is usually collected in spreadsheets, like Excel. The file containing this experiment information is often called **README**. Having this information is very convenient when you're working on a team and more people start to join the poject even at different steps of the experiment. This may help better your collaborators to easy understand what the data is about. 
+Data about the experiment is usually collected in spreadsheets, like Excel. The file containing this experiment information is often called **README**. Having this information is very convenient when you're working on a team and more people start to join the project even at different steps of the experiment. This may help better your collaborators to easy understand what the data is about. 
 
 What type of data to collect depends on your experiment and there are often guidelines from metadata standards. The Cornell University gives us a useful [guide](https://data.research.cornell.edu/content/readme#dataspecific) to learn how to write a README. You can check the template in the following [file](https://github.com/nselem/organization-metagenomics/blob/master/files/AUTHOR_DATASET_ReadmeTemplate.txt)
 
@@ -79,7 +79,7 @@ What type of data to collect depends on your experiment and there are often guid
 >
 >
 >> ## Solution
->> Make sure your data can be correctly interpreted, by yourself at a later date or by others when sharing or publishing data. If there are no standards, a "readme" file is an always an appropiate strategy. Here you can check a [Guide to writing "readme"](https://data.research.cornell.edu/content/readme#dataspecific) by Cornell University.  
+>> Make sure your data can be correctly interpreted, by yourself at a later date or by others when sharing or publishing data. If there are no standards, a "readme" file is always an appropiate strategy. Here you can check a [Guide to writing "readme"](https://data.research.cornell.edu/content/readme#dataspecific) by Cornell University.  
 >> 
 > {: .solution}
 {: .challenge}
