@@ -1,7 +1,7 @@
 ---
 title: "Data Tidiness"
-teaching: 20
-exercises: 10
+teaching: 10
+exercises: 5
 questions:
 - "What metadata should I collect?"
 - "How should I structure my sequencing data and metadata?"
