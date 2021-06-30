@@ -26,7 +26,7 @@ The [sequencing dataset (from Okie, *et al.* 2020) adapted for this workshop](ht
 
 See the figures below for how information about data access is provided within the original paper. 
 
-The **above image** shows the title of the study, as well as the authors.
+The **next image** shows the title of the study, as well as the authors.
 
 <img style='border:1px solid #000000' src="../fig/01-03-01.png" width="800"/>
 
