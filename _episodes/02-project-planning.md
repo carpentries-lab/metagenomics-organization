@@ -1,6 +1,6 @@
 ---
 title: "Planning for NGS Projects"
-teaching: 20
+teaching: 10
 exercises: 10
 questions:
 - "How do I plan and organize a genome sequencing project?"
