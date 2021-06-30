@@ -1,6 +1,6 @@
 ---
 title: "Examining Data on the NCBI SRA Database"
-teaching: 20
+teaching: 10
 exercises: 10
 questions:
 - "How do I access public sequencing data?"
