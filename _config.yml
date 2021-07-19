@@ -79,7 +79,7 @@ defaults:
     values:
       root: ..
       layout: page
-
+ 
 # Files and directories that are not to be copied.
 exclude:
   - Makefile
