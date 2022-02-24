@@ -107,3 +107,6 @@ that are fixed. If your audience is reluctant to participate, start out with
 some things on your own, or ask a helper for their answers. This generally gets
 even a reluctant audience started. 
 
+## Reference
+
+This Instructor notes are based on the [corresponding page](https://datacarpentry.org/organization-genomics/guide/index.html) in the Project Organization and Management for Genomics Workshop.
