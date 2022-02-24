@@ -73,3 +73,6 @@ TSV (tab separated values) format
 
 variable  
 :   a category of data being collected on the object being recorded (e.g. a mouse's weight)
+
+## Reference
+This page is adapted from the Project Organization and Management for Genomics [corresponding page](https://datacarpentry.org/organization-genomics/reference.html).
