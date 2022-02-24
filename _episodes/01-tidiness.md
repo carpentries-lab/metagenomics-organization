@@ -15,7 +15,7 @@ keypoints:
 - "Tabular data needs to be structured to be able to work with it effectively."
 ---
 
-# Introduction
+## Introduction
 
 When we think about the data for a sequencing project, we often start by thinking about 
 the sequencing data that we get back from the sequencing center, but just as important, 
