@@ -35,7 +35,7 @@ methods and approaches we need in bioinformatics are the same ones we need at th
 {: .challenge}
 
 
-# Sending samples to the facility
+## Sending samples to the facility
 
 The first step in sending your sample for sequencing will be to complete a form documenting the metadata for the
 facility. Take a look at the following example submission spreadsheet.
@@ -74,7 +74,7 @@ with Excel or another spreadsheet program.
 > {: .solution}
 {: .challenge}
 
-# Retrieving sample sequencing data from the facility
+## Retrieving sample sequencing data from the facility
 
 When the data come back from the sequencing facility, you will receive some documentation (metadata) as well as
 the sequence files themselves. Download and examine the following example file - here provided as a text file and
@@ -102,7 +102,7 @@ Excel file:
 > {: .solution}
 {: .challenge}
 
-# Storing data
+## Storing data
 
 The raw data you get back from the sequencing center is the foundation of your sequencing analysis. You need to keep this data, so that you can always come back to it if there are any questions or you need to re-run an analysis, or try a new analysis approach.
 
@@ -112,7 +112,7 @@ The raw data you get back from the sequencing center is the foundation of your s
 - Store the data in a place that is redundantly backed up. It should be backed up in two locations that are in different physical areas.
 - Leave the raw data raw. You will be working with this data, but you don't want to modify this stored copy of the original data. If you modify the data, you'll never be able to access those original files. We will cover how to avoid accidentally changing files in a later lesson in this workshop [(see File Permissions)](https://nselem.github.io/shell-metagenomics/02-the-filesystem/index.html).
 
-#### Some data storage solutions
+### Some data storage solutions
 
 If you have a local high performance computing center or data storage facility on your campus or with your organization, those are ideal locations. Get in touch with the people who support those facilities to ask for information.
 
@@ -122,7 +122,7 @@ You can also use cloud resources, with them you put your information in the clou
 
 Apart from these cloud resources that are specifically for storage, there are other cloud services that allow you to have computing capacity for data processing and analysis, larger than the capacity of a common personal computer, like the [Amazon Web Services](https://aws.amazon.com/es/) instances that we will use during this workshop. 
 
-# Summary
+## Summary
 
 Before analysis of data has begun, there are already many potential areas for errors and omissions. Keeping
 organized and keeping a critical eye can help catch mistakes.
