@@ -14,7 +14,6 @@ keypoints:
 - "Metadata is key for you and others to be able to work with your data."
 - "Tabular data needs to be structured to be able to work with it effectively."
 ---
-###### <em> Figure 1. RStudio interface screenshot. The three windows that appear on the screen provide us with a space in which we can see our console (left side window) where the orders we want to execute are written, observe the generated variables (upper right), and a series of subtabs (lower right): **Files** shows us files that we have used, **Plots** shows us graphics that we are generating, **Packages** shows the packages that we have downloaded, **Help** it gives us the information of packages, commands and/or functions that we do not know, but works only with internet conection, and **Viewer** shows a results preview in R markdown files.</em>
 
 ## Introduction
 
