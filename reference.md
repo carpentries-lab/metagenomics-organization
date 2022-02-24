@@ -9,13 +9,16 @@ accession
 :   a unique identifier assigned to each sequence or set of sequences
 
 BLAST
-:   The Basic Local Alignment Search Tool at NCBI that searches for similarities between known and unknown biomolecules like DNA
+:   The Basic Local Alignment Search Tool at NCBI that searches for similarities 
+	between known and unknown biomolecules like DNA
 
 categorical variable
-:   Variables can be classified as categorical (aka, qualitative) or quantitative (aka, numerical). Categorical variables take on a fixed number of values that are names or labels. 
+:   Variables can be classified as categorical (aka, qualitative) or quantitative (aka, numerical). 
+  Categorical variables take on a fixed number of values that are names or labels. 
 
 cleaned data  
-:   data that has been manipulated post-collection to remove errors or inaccuracies, introduce desired formatting changes, or otherwise prepare the data for analysis
+:   data that has been manipulated post-collection to remove errors or 
+  inaccuracies, introduce desired formatting changes, or otherwise prepare the data for analysis
 
 conditional formatting  
 :   formatting that is applied to a specific cell or range of cells depending on a set of criteria  
