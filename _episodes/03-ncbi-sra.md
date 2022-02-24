@@ -28,7 +28,7 @@ See the figures below for how information about data access is provided within t
 
 The **next image** shows the title of the study, as well as the authors.
 
-<img style='border:1px solid #000000' src="../fig/01-03-01.png" width="800"/>
+<img style='border:1px solid #000000' src="../fig/01-03-01.png" width="800" alt= " "/>
 
 The **image below** shows an excerpt from the paper that includes information on how to locate the sequence data. In this case, the text appears just before the reference section.
 
