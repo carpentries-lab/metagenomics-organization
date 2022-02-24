@@ -54,3 +54,6 @@ In this lesson you will learn:
 > If you are teaching this lesson in a workshop, please see the
 > [Instructor notes](guide/).
 {: .prereq}
+
+# Reference
+This page and the three episodes in this lesson are adapted from the lesson [Project Organization and Management for Genomics](https://datacarpentry.org/organization-genomics/).
