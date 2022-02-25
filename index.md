@@ -55,5 +55,5 @@ In this lesson you will learn:
 > [Instructor notes](guide/).
 {: .prereq}
 
-# Reference
+## Reference
 This page and the three episodes in this lesson are adapted from the lesson [Project Organization and Management for Genomics](https://datacarpentry.org/organization-genomics/).
