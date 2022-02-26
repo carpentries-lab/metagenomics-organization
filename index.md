@@ -55,5 +55,7 @@ In this lesson you will learn:
 > [Instructor notes](guide/).
 {: .prereq}
 
+This is the first lesson of the [Metagenomics Workshop](https://carpentries-incubator.github.io/metagenomics-workshop/) comprised of four lessons in total. 
+
 ## Lesson Reference
 This page and the three episodes in this lesson are adapted from the lesson [Project Organization and Management for Genomics](https://datacarpentry.org/organization-genomics/).
