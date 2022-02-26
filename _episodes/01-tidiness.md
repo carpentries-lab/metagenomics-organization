@@ -72,7 +72,7 @@ day, or if you do, you're aware of it and give them names like A and B.
 
 Data about the experiment is usually collected in spreadsheets, like Excel. The file containing this experiment information is often called **README**. Having this information is very convenient when you're working on a team and more people start to join the project even at different steps of the experiment. This may help better your collaborators to easy understand what the data is about. 
 
-What type of data to collect depends on your experiment and there are often guidelines from metadata standards. The Cornell University gives us a useful [guide](https://data.research.cornell.edu/content/readme#dataspecific) to learn how to write a README. You can check the template in the following [file](https://github.com/nselem/organization-metagenomics/blob/master/files/AUTHOR_DATASET_ReadmeTemplate.txt)
+What type of data to collect depends on your experiment and there are often guidelines from metadata standards. The Cornell University gives us a useful [guide](https://data.research.cornell.edu/content/readme) to learn how to write a README. You can check the template in the following [file](https://github.com/nselem/organization-metagenomics/blob/master/files/AUTHOR_DATASET_ReadmeTemplate.txt)
 
 > ## Discussion 2
 > Now that we have learned the format and the importance of the **README** file. Work in teams and discuss the main helpful tips to make your own data file in Excel. [Here](../files/01_MGRAST_DATA.xlsx) you can access to the data file information. Use the template and modify the different sheets to facilitate your work.
