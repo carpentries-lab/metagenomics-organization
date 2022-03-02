@@ -79,7 +79,7 @@ What type of data to collect depends on your experiment and there are often guid
 >
 >
 >> ## Solution
->> Make sure your data can be correctly interpreted, by yourself at a later date or by others when sharing or publishing data. If there are no standards, a "readme" file is always an appropiate strategy. Here you can check a [Guide to writing "readme"](https://data.research.cornell.edu/content/readme#dataspecific) by Cornell University.  
+>> Make sure your data can be correctly interpreted, by yourself at a later date or by others when sharing or publishing data. If there are no standards, a "readme" file is always an appropiate strategy.  
 >> 
 > {: .solution}
 {: .challenge}
