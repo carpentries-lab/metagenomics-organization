@@ -80,13 +80,13 @@ What type of data to collect depends on your experiment and there are often guid
 >
 >> ## Solution
 >> Make sure your data can be correctly interpreted, by yourself at a later date or by others when sharing or publishing data. If there are no standards, a "readme" file is always an appropiate strategy. In your readme file, answer the following questions:
->> Who is the principal investigator?
->> Does he/she has an email?
->> When were data collected
->> At what geographic location?
->> At what date was the file created?
->> Are there licenses for the work?
->> What metodology was used to obtained and process data?
+>> Who is the principal investigator?  
+>> Does he/she has an email?  
+>> When were data collected?   
+>> At what geographic location?  
+>> At what date was the file created?  
+>> Are there licenses for the work?  
+>> What metodology was used to obtained and process data?  
 >> 
 > {: .solution}
 {: .challenge}
