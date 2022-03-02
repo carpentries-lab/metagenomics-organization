@@ -75,11 +75,18 @@ Data about the experiment is usually collected in spreadsheets, like Excel. The 
 What type of data to collect depends on your experiment and there are often guidelines from metadata standards. The Cornell University gives us a useful [guide](https://data.research.cornell.edu/content/readme) to learn how to write a README. You can check the template in the following [file](https://github.com/nselem/organization-metagenomics/blob/master/files/AUTHOR_DATASET_ReadmeTemplate.txt)
 
 > ## Discussion 2
-> Now that we have learned the format and the importance of the **README** file. Work in teams and discuss the main helpful tips to make your own data file in Excel. [Here](../files/01_MGRAST_DATA.xlsx) you can access to the data file information. Use the template and modify the different sheets to facilitate your work.
+> Now that we have learned the format and the importance of the **README** file. Work in teams and discuss the main helpful tips to make your own plain-text readme from this data file in Excel. [Here](../files/01_MGRAST_DATA.xlsx). You can use th Cronell template and modify the information to facilitate your work.
 >
 >
 >> ## Solution
->> Make sure your data can be correctly interpreted, by yourself at a later date or by others when sharing or publishing data. If there are no standards, a "readme" file is always an appropiate strategy.  
+>> Make sure your data can be correctly interpreted, by yourself at a later date or by others when sharing or publishing data. If there are no standards, a "readme" file is always an appropiate strategy. In your readme file, answer the following questions:
+>> Who is the principal investigator?
+>> Does he/she has an email?
+>> When were data collected
+>> At what geographic location?
+>> At what date was the file created?
+>> Are there licenses for the work?
+>> What metodology was used to obtained and process data?
 >> 
 > {: .solution}
 {: .challenge}
