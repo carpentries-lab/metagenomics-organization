@@ -35,7 +35,6 @@ In this lesson you will learn:
 - The metadata is the information about the experiment and the samples you're sequencing.
 - How to prepare for, understand, organize and store the sequencing data that comes back from the sequencing center.
 - How to access and download publicly available data that may need to be used in your bioinformatics analysis.
-- The concepts of organizing the files and documenting the workflow of your bioinformatics analysis.
 
 > ## Getting Started
 >
