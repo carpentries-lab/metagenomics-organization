@@ -39,8 +39,8 @@ In this lesson you will learn:
 > ## Getting Started
 >
 > This lesson assumes no prior experience with the tools covered in the workshop. 
-> However, learners are expected to have some familiarity with biological concepts,
-> such as that each living organism has a genome. 
+> However, learners are expected to have familiarity with some biological concepts,
+> such as that each living organism has a genome, and what can be obtained from DNA sequencing.
 > Participants should bring their laptops and plan to participate actively. 
 >
 > This lesson is part of a workshop that uses data hosted on an Amazon Machine Instance (AMI). Workshop participants will be given 
