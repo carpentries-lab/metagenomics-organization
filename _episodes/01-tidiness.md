@@ -117,8 +117,8 @@ like computers when we use spreadsheets.
 The cardinal rules of using spreadsheet programs for data:
 
 - Leave the raw data raw - don’t change it!
-- Put each observation or sample in its own row.
-- Put all your variables in columns - the thing that vary between samples, like ‘strain’ or ‘DNA-concentration’.
+- Put each observation in its own row. An observation is each of our samples, the subjects for which we store information in the spreadsheet. 
+- Put all your variables in columns.The variables are the different pieces of information that we have about our sample (its genotype, its phenotype, its treatment, etc.). 
 - Have column names be explanatory, but without spaces. Use '-', '_' or [camel case](https://en.wikipedia.org/wiki/Camel_case) instead of a space. For instance 'library-prep-method' or 'LibraryPrep'is better than 'library preparation method' or 'prep', because computers interpret spaces in particular ways.
 - Don’t combine multiple pieces of information in one cell. Sometimes it just seems like one thing, but think if that’s the only way
 you’ll want to be able to use or sort that data. For example, instead of having a column with species and strain name (e.g. *E. coli* 
