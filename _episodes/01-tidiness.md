@@ -70,18 +70,22 @@ day, or if you do, you're aware of it and give them names like A and B.
 
 ## Data about the experiment
 
-Data about the experiment is usually collected in spreadsheets, like Excel. The file containing this experiment information is often called **README**. Having this information is very convenient when you're working on a team and more people start to join the project even at different steps of the experiment. This may help better your collaborators to easy understand what the data is about. 
+Data about the experiment is usually collected in **spreadsheets**, like Excel. Alongside the spreadsheet is convenient
+to create a text file called **README**. This file holds information about the research project, how the samples were generated, 
+and information about how to read the metadata spreadsheet. For example, it can have the meaning of abreviations used in the metadata. 
+Having this information is very convenient when you’re working on a team and more people start to join the project even at different 
+steps of the experiment. This may help better your collaborators to easy understand what the data is about.
 
-What type of data to collect depends on your experiment and there are often guidelines from metadata standards. The Cornell University gives us a useful [guide](https://data.research.cornell.edu/content/readme) to learn how to write a README. You can check the template in the following [file](https://github.com/nselem/organization-metagenomics/blob/master/files/AUTHOR_DATASET_ReadmeTemplate.txt)
+What type of data to collect depends on your experiment and there are often guidelines from metadata standards. The Cornell University gives us a useful [guide](https://data.research.cornell.edu/content/readme) to learn how to write a README. You can check the template offered by this guide in the following [file](https://github.com/nselem/organization-metagenomics/blob/master/files/AUTHOR_DATASET_ReadmeTemplate.txt)
 
 > ## Discussion 2
-> Now that we have learned the format and the importance of the **README** file. Work in teams and discuss the main helpful tips to make your own plain-text readme from this data file in Excel. [Here](../files/01_MGRAST_DATA.xlsx). You can use th Cronell template and modify the information to facilitate your work.
+> Now that we have learned the format and the importance of the **README** file. Work in teams and discuss the main helpful tips to make your own plain-text README for this [metadatadata spreadsheet](../files/01_MGRAST_DATA.xlsx). You can use th Cornell template and modify the information to facilitate your work.
 >
 >
 >> ## Solution
->> Make sure your data can be correctly interpreted, by yourself at a later date or by others when sharing or publishing data. If there are no standards, a "readme" file is always an appropiate strategy. In your readme file, answer the following questions:
+>> Make sure your data can be correctly interpreted, by yourself at a later date or by others when sharing or publishing data. In your README file, answer the following questions:
 >> Who is the principal investigator?  
->> Does he/she has an email?  
+>> Do they have an email?  
 >> When were data collected?   
 >> At what geographic location?  
 >> At what date was the file created?  
