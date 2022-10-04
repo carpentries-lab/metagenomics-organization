@@ -79,18 +79,19 @@ steps of the experiment. This may help better your collaborators to easy underst
 What type of data to collect depends on your experiment and there are often guidelines from metadata standards. The Cornell University gives us a useful [guide](https://data.research.cornell.edu/content/readme) to learn how to write a README. You can check the template offered by this guide in the following [file](https://github.com/nselem/organization-metagenomics/blob/master/files/AUTHOR_DATASET_ReadmeTemplate.txt)
 
 > ## Discussion 2
-> Now that we have learned the format and the importance of the **README** file. Work in teams and discuss the main helpful tips to make your own plain-text README for this [metadatadata spreadsheet](../files/01_MGRAST_DATA.xlsx). You can use th Cornell template and modify the information to facilitate your work.
+> Now that we have learned the format and the importance of the **README** file. Work in teams and discuss what a README file for this [metadatadata spreadsheet](../files/salmpe_metadata.xlsx) should say. 
 >
 >
 >> ## Solution
 >> Make sure your data can be correctly interpreted, by yourself at a later date or by others when sharing or publishing data. In your README file, answer the following questions:
 >> Who is the principal investigator?  
->> Do they have an email?  
->> When were data collected?   
+>> What is their email?  
+>> When were the data collected and what type of data format are you using?  
 >> At what geographic location?  
 >> At what date was the file created?  
 >> Are there licenses for the work?  
 >> What metodology was used to obtained and process data?  
+>> Specifically for this metadata what does "biome",	"feature",	"material",	and "env_package" mean ?
 >> 
 > {: .solution}
 {: .challenge}
@@ -107,7 +108,10 @@ consistent and can be used across the field.
 > If there aren't metadata standards already, you can think about what the 
 > minimum amount of information is that someone would need to know about your data 
 > to be able to work with it, without talking to you.
->
+> When you submit data to an organization, they may give you a file that says how to create a README 
+> and a metadata spreadsheet for their platform,  with specific instructions about what each metadata 
+> field should contain. For example, MG-RAST gives a file like [this](../files/01_MGRAST_DATA.xlsx).
+
 {: .callout}
 
 ### Structuring data in spreadsheets
