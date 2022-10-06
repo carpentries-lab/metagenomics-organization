@@ -79,7 +79,7 @@ steps of the experiment. This may help better your collaborators to easy underst
 What type of data to collect depends on your experiment and there are often guidelines from metadata standards. The Cornell University gives us a useful [guide](https://data.research.cornell.edu/content/readme) to learn how to write a README. You can check the template offered by this guide in the following [file](https://github.com/nselem/organization-metagenomics/blob/master/files/AUTHOR_DATASET_ReadmeTemplate.txt)
 
 > ## Discussion 2
-> Now that we have learned the format and the importance of the **README** file. Work in teams and discuss what a README file for this [metadatadata spreadsheet](../files/salmpe_metadata.xlsx) should say. 
+> Now that we have learned the format and the importance of the **README** file. Work in teams and discuss what a README file for this [metadatadata spreadsheet](../files/sample_metadata.xlsx) should say. 
 >
 >
 >> ## Solution
