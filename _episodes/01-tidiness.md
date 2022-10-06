@@ -111,7 +111,6 @@ consistent and can be used across the field.
 > When you submit data to an organization, they may give you a file that says how to create a README 
 > and a metadata spreadsheet for their platform,  with specific instructions about what each metadata 
 > field should contain. For example, MG-RAST gives a file like [this](../files/01_MGRAST_DATA.xlsx).
-
 {: .callout}
 
 ### Structuring data in spreadsheets
