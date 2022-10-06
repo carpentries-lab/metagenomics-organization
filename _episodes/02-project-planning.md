@@ -32,11 +32,13 @@ methods and approaches we need in bioinformatics are the same ones we need at th
 > What is your strategy for saving and sharing your sequence files?  
 > How can you be sure that your raw data has not been unintentionally corrupted?  
 > Where/how will you (did you) analyze your data - what software, what computer(s)?
-> > # Solution
-> >  With large datasets is hard to have enough storage space for your data and your results, 
-> >  and to be able to anticipate how much disc space and processing time do you need for every step of 
-> >  your pipelines, including intermediate files and results.
-> >  It is hard to identify errors when you have too many files and too many observations in a spreadsheet.
+> 
+> > ## Solution
+> > With large datasets is hard to have enough storage space for your data and your results, 
+> > and to be able to anticipate how much disc space and processing time do you need for every step of 
+> > your pipelines, including intermediate files and results.
+> > It is hard to identify errors when you have too many files and too many observations in a spreadsheet.
+> >  
 > {: .solution}
 {: .challenge}
 
