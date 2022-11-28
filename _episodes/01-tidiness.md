@@ -95,6 +95,20 @@ consistent and can be used across the field.
 > field should contain. For example, MG-RAST gives a file like [this](../files/01_MGRAST_DATA.xlsx).
 {: .callout}
 
+> ## Discussion 1
+> What type of information would you put in your README file? 
+>
+> > ## Solution
+> > Some examples of clarifications that need to be written in the README are:
+> > * Date format (mm-dd-yyyy or dd-mm-yyyy, for example).
+> > * Meaning of abbreviations.
+> > * Meaning or pattern followed to construct the unique IDs of samples.
+> > * Details about the methodology.
+> > * Contact information about the persons who perfomed the collection and/or experiments.
+> > * Meaning of each variable name.
+> {: .solution}
+{: .challenge}
+
 ### Structuring data in spreadsheets
 
 Independent of the type of data you're collecting, there are standard ways to enter that data 
