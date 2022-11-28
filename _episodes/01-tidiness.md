@@ -72,32 +72,12 @@ day, or if you do, you're aware of it and give them names like A and B.
 
 Data about the experiment is usually collected in **spreadsheets**, like Excel. Alongside the spreadsheet is convenient
 to create a text file called **README**. This file holds information about the research project, how the samples were generated, 
-and information about how to read the metadata spreadsheet. For example, it can have the meaning of abreviations used in the metadata. 
+and information about how to read the metadata spreadsheet. 
 Having this information is very convenient when you’re working on a team and more people start to join the project even at different 
 steps of the experiment. This may help better your collaborators to easy understand what the data is about.
 
-What type of data to collect depends on your experiment and there are often guidelines from metadata standards. The Cornell University gives us a useful [guide](https://data.research.cornell.edu/content/readme) to learn how to write a README. You can check the template offered by this guide in the following [file](https://github.com/nselem/organization-metagenomics/blob/master/files/AUTHOR_DATASET_ReadmeTemplate.txt)
-
-> ## Discussion 2
-> Now that we have learned the format and the importance of the **README** file. Work in teams and discuss what a README file for this [metadatadata spreadsheet](../files/sample_metadata.tsv) should say. 
->
->
->> ## Solution
->> Make sure your data can be correctly interpreted, by yourself at a later date or by others when sharing or publishing data. In your README file, answer the following questions:
->> Who is the principal investigator?  
->> What is their email?  
->> When were the data collected and what type of date format are you using?  
->> At what geographic location?  
->> At what date was the file created?  
->> Are there licenses for the work?  
->> What metodology was used to obtained and process data?  
->> Specifically for this metadata what does "biome",	"feature",	"material",	and "env_package" mean ?
->> 
-> {: .solution}
-{: .challenge}
-
-
 > ## Metadata standards
+> What type of data to collect depends on your experiment and there are often guidelines from metadata standards.
 > Many fields have particular ways that they structure their metadata so it's
 consistent and can be used across the field.
 >
@@ -108,8 +88,10 @@ consistent and can be used across the field.
 > If there aren't metadata standards already, you can think about what the 
 > minimum amount of information is that someone would need to know about your data 
 > to be able to work with it, without talking to you.
-> When you submit data to an organization, they may give you a file that says how to create a README 
-> and a metadata spreadsheet for their platform,  with specific instructions about what each metadata 
+> The Cornell University gives us a useful [guide](https://data.research.cornell.edu/content/readme) and template [file](https://github.com/nselem/organization-metagenomics/blob/master/files/AUTHOR_DATASET_ReadmeTemplate.txt) to write a README-style metadata in case 
+> there are no metadata standards for your type of data.  
+> When you submit data to an organization, they may give you a file that says how to create a 
+> metadata spreadsheet for their platform,  with specific instructions about what each metadata 
 > field should contain. For example, MG-RAST gives a file like [this](../files/01_MGRAST_DATA.xlsx).
 {: .callout}
 
