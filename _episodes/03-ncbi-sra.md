@@ -24,64 +24,52 @@ There are many repositories for public data. Some model organisms or fields have
 
 The [sequencing dataset (from Okie, *et al.* 2020) adapted for this workshop](https://doi.org/10.5281/zenodo.4285900) was obtained from the [NCBI Sequence Read Archive](http://www.ncbi.nlm.nih.gov/sra), which is a large (~27 petabasepairs/2.7 x 10^16 basepairs as of April 2019) repository for next-generation sequence data. Like many NCBI databases, it is complex and mastering its use is greater than the scope of this lesson. Very often the papers will have a direct link (perhaps in the supplemental information) to where the SRA dataset can be found. We are only using a small part of the Okie *et al.* 2020 dataset, so a direct link cannot be found. 
 
-## Locate the Run Selector Table for the Okie Dataset on the SRA
+## Locate the entries for the Okie Dataset on the SRA Run Selector and download the metadata
 
 See the figures below for how information about data access is provided within the original paper. 
 
-The **next image** shows the title of the study, as well as the authors.
+The next image shows the title of the study, as well as the authors.
 
 <img style='border:1px solid #000000' src="../fig/01-03-01.png" width="800" alt="Screenshot of the cover page of the article named: Genomic adaptations in information processing underpin trophic strategy in a whole-ecosystem nutrient enrichment experiment"/>
 
-The **image below** shows an excerpt from the paper that includes information on how to locate the sequence data. In this case, the text appears just before the reference section.
+The image below shows an excerpt from the paper that includes information on how to locate the sequence data. In this case, the text appears just before the reference section.
 
 <img style='border:1px solid #000000' src="../fig/01-03-02.png" width="800" alt="Screenshot of the section of the article called Additional file. It show the following text: Supplementary files: Source data 1. Data on the metagenomic traits and concentrations of seston chlorophyll a, phosphorus, nitroge, and carbon in water samples from Lagunitas pond, Cuatro ciénegas, Mexico. Data availability: Raw sequence data and metadata have been submitted to the NCBI Sequence Read Archive, accessible through BioProject PRJEB228811. The following dataset was generated: Author(s): J Craig Venter Institute, Year: 2017, Dataset title: Cuatro Ciénegas Lagunita Fertilization Experiment, Database and Identifier: NCBI BioProject, PREJB22811, Dataset URL"/>
 
-1. Notice that the paper references "PRJEB22811" as a "BioProject" at NCBI. If you go to the [NCBI website](https://www.ncbi.nlm.nih.gov/) and search for "PRJEB22811" you will be shown a link to the "Cuatro Cienegas Lagunita Fertilization Experiement" BioProject. Here is the link to that database: [https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB22811](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB22811).
+1. Notice that the paper references "PRJEB22811" as a "BioProject" at NCBI. Go to the [NCBI website](https://www.ncbi.nlm.nih.gov/) and search for "PRJEB22811".
 
-2. Once on the BioProject page, scroll down to the table under **"Project information:"**. *"[PRJEB22811](https://www.ncbi.nlm.nih.gov/bioproject/PRJEB22811/)*. 
+2. You will be shown a link to the "Cuatro Cienegas Lagunita Fertilization Experiement" BioProject. click on it. 
 
-3. This will take you to a page with a table **"Project Data"** 
-that has a link to the 40 SRA files for this subproject. 
+2. Once on the BioProject page, scroll down to the table under **Project Data**. 
 
-4. Click on the number 
-["40"](https://www.ncbi.nlm.nih.gov/sra?linkname=bioproject_sra_all&from_uid=420272) and it will take you to the SRA page for this subproject. 
+3. This table says there are 40 links to the SRA Experiments of this project, click on that number 40.
 
-5. For a more organized table, go to ["SRA Run"](https://www.ncbi.nlm.nih.gov/Traces/study/) and type the BioProject accession ID. This will be used in the next section. The run selector is being updated, at this point you can either use the redesigned SRA Run Selector (recommended) or revert to the old Run Selector.
+4. Now you are on the NCBI-SRA page with the 40 samples of this project. In the top of the page there is a **Send to:** dropdown menu, click on it, select **Run Selector** and click **Go**. This will take you to [this page](https://www.ncbi.nlm.nih.gov/Traces/study/?query_key=3&WebEnv=MCID_63862368904478135adcaff4&o=acc_s%3Aa) in the SRA Run Selector. This is NCBI’s new cloud-based SRA interface. You will be presented with a page for the overall BioProject accession PRJEB22811 - this is a collection of all the experimental data.
 
-
-## Download the Okie SRA data from the (newer) SRA Run Selector Table
-
-1. Make sure you access the dataset from the provided link: [https://www.ncbi.nlm.nih.gov/Traces/study/?acc=%20PRJEB22811&o=acc_s%3Aa](https://www.ncbi.nlm.nih.gov/Traces/study/?acc=%20PRJEB22811&o=acc_s%3Aa). This is NCBI’s new cloud-based SRA interface. You will be presented with a page for the overall BioProject accession PRJEB22811 - this is a collection of all the experimental data. 
-
-2. At the top of the page is an option to switch back to the “old Run Selector”. We will discuss that later.
-<img style='border:1px solid #000000' src="../fig/01-03-03.png" width="800" alt=" Screenshot of the top of the SRA page. It shows the section Common fields, which holds: Bioproject PRJEB22811, and Consent: Public"/>
-
-3. Notice on this page there are three sections. “Common Fields” “Select”, and “Found 40 Items”. Within “Found 40 Items”, click on the first Run number (Column “Run”, Row “1”). 
+5. Notice on this page there are three sections. “Common Fields” “Select”, and “Found 40 Items”. Within “Found 40 Items”, click on the first Run number (Column “Run”, Row “1”). 
 <img style='border:1px solid #000000' src="../fig/01-03-04.png" width="800" alt="Screenshot of the sections Select and Found 40 Items"/>
 
-4. This will take you to a page that is a run browser. Take a few minutes to examine some of the descriptions on the page.
+6. This will take you to a page that is a **Run Browser**. Take a few minutes to examine some of the descriptions on the page.
 <img style='border:1px solid #000000' src="../fig/01-03-05.png" width="800" alt="Screenshot of details for the selected run. It shows the details of the sequence file, a quality graph, the metadata, the Biosample details and BioProject details."/>
 
-5. Use the browser’s back button to go back to the 'previous page'. As shown in the figure below, the second section of the page (“Select”) has the **Total** row showing you the current number of “Runs”, “Bytes”, and “Bases” in the dataset to date. On 2012-06-27 there were 40 runs, 9.86 GBytes of data, and 19.61 Gbases of data. 
+7. Use the browser’s back button to go back to the 'previous page'. As shown in the figure below, the second section of the page (“Select”) has the **Total** row showing you the current number of “Runs”, “Bytes”, and “Bases” in the dataset to date. On 2012-06-27 there were 40 runs, 9.86 GBytes of data, and 19.61 Gbases of data. 
 <img style='border:1px solid #000000' src="../fig/01-03-06.png" width="800" alt="Screenshot of the section Select, with two rows with the number of runs, bytes, bases and buttons to download the Metadata and Accession List, one row for Total and one row for Selected."/>
 
-6. Click on the “Metadata” button to download the data for this lesson. The filename is “SraRunTable.txt” and save it on your computer Desktop.
-
-> ## Downloading the Okie SRA data from the SRA Run Selector Table using the old Run Selector
-> 
-> Go to the [“old Run Selector” ](https://www.ncbi.nlm.nih.gov/Traces/study1/?query_key=1&WebEnv=MCID_605b7fb46f5f14319c387ae3&o=acc_s%3Aa) at the top of the page. Download your `SraRunTable.txt` file by clicking in **"RunInfo Table"**. 
-> 
-> We include the “old Run Selector” page because the webpages ***and*** downloaded file `SraRunTable.txt` are slightly different. 
-{: .callout}
+8. Click on the “Metadata” button to download the file “SraRunTable.txt” and save it on your computer.
 
 **You should now have a file called `SraRunTable.txt`**
 
 ## Review the SraRunTable in a spreadsheet program
 
+Using your choice of spreadsheet program, open the `SraRunTable.txt` file. If prompted by the spreadsheet software be aware that the SRA Run Selector provides a **comma-separated** file.
 
-Using your choice of spreadsheet program, open the `SraRunTable.txt` file. If prompted by the spreadsheet software be aware that the ***newer***  NCBI Run Selector provides a **comma-separated** file (often given a suffix of `.csv`), however if you used the ***older***  SRA Run Selector, this is a **tab-separated** file (often given the suffix of `.tsv`). 
-
-Now you know that comma-separated and tab-separated files are both "text" files but use either commas or tabs as **delimiters**, respectively. They both are sometimes suffixed with `.txt`. 
+> ## Delimiters
+> The fields in a table are separated (or delimited) usually by commas or tabs, 
+> so they are named with the `.csv` (comma-separated values) and 
+> `.tsv`(tab-separated values) extensions, respectively. But since they are both 
+> plain text files you can find them both with the `.txt` extension, just like in 
+> our `SraRunTable.txt`.
+{: .callout}
 
 > ## Discussion  
 > Discuss with the person next to you:
@@ -90,14 +78,15 @@ Now you know that comma-separated and tab-separated files are both "text" files 
 > 2. What samples in the experiment contain
 > [paired end](http://www.illumina.com/technology/next-generation-sequencing/paired-end-sequencing_assay.html)
 > sequencing data?
-> 3. What other kind of data is available?
-> 4. Why are you collecting this kind of information about your sequencing runs?
+> 3. What other kind of metadata is available?
 >
 > > ## Solution
-> > 1. The Illumina sequencing platform was used shown in the column "Platform". But notice they used multiple instrument types listed under "Instrument"
-> > 2. Sort by LibraryLayout and you will check all the samples contain paired-end data.
-> > 3. There are several columns including: megabases of sequence per sample, Assay type, BioSample Model, and more.
-> > 4. These are examples of "metadata" that you should collect for sequencing projects that are sent to public databases. 
+> > 1. The Illumina sequencing platform was used, shown in the column "Platform". The column "Instrument" 
+> > shows which type of Illumina sequencer was used, in this case Illumina MiSeq.  
+> > 2. The "LibraryLayout" column shows that all samples contain paired-end data.v  
+> > 3. This is a good example of the types of metadata that can exist for a sequenced biological sample. 
+> > There is technical information, like "Assay Type" and "DATASTORE filetype", information about the sequences 
+> > like "Bases", and biological metadata like "environment_(biome)" and "potassium_ppm".  
 > >
 > {: .solution}
 {: .challenge}
