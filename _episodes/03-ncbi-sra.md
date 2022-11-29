@@ -24,7 +24,7 @@ There are many repositories for public data. Some model organisms or fields have
 
 The [sequencing dataset (from Okie, *et al.* 2020) adapted for this workshop](https://doi.org/10.5281/zenodo.4285900) was obtained from the [NCBI Sequence Read Archive](http://www.ncbi.nlm.nih.gov/sra), which is a large (~27 petabasepairs/2.7 x 10^16 basepairs as of April 2019) repository for next-generation sequence data. Like many NCBI databases, it is complex and mastering its use is greater than the scope of this lesson. Very often the papers will have a direct link (perhaps in the supplemental information) to where the SRA dataset can be found. We are only using a small part of the Okie *et al.* 2020 dataset, so a direct link cannot be found. 
 
-## Locate the entries for the Okie Dataset on the SRA Run Selector and download the metadata
+## Using the SRA Run Selector
 
 See the figures below for how information about data access is provided within the original paper. 
 
@@ -57,9 +57,7 @@ The image below shows an excerpt from the paper that includes information on how
 
 8. Click on the “Metadata” button to download the file “SraRunTable.txt” and save it on your computer.
 
-## Review the SraRunTable in a spreadsheet program
-
-Using your choice of spreadsheet program, open the `SraRunTable.txt` file. If prompted by the spreadsheet software be aware that the SRA Run Selector provides a **comma-separated** file.
+9. Review the SraRunTable in a spreadsheet program. Using your choice of spreadsheet program, open the `SraRunTable.txt` file. If prompted by the spreadsheet software be aware that the SRA Run Selector provides a **comma-separated** file.
 
 > ## Delimiters
 > The fields in a table are separated (or delimited) usually by commas or tabs, 
@@ -69,7 +67,7 @@ Using your choice of spreadsheet program, open the `SraRunTable.txt` file. If pr
 > our `SraRunTable.txt`.
 {: .callout}
 
-> ## Discussion  
+> ## Discussion 1  
 > Discuss with the person next to you:
 >
 > 1. What was the sequencing platform used for this experiment?
@@ -89,21 +87,21 @@ Using your choice of spreadsheet program, open the `SraRunTable.txt` file. If pr
 > {: .solution}
 {: .challenge}
 
-After answering the questions, you should avoid saving any changes you might have made to this file. We don't want to make any changes. If you were to save this file, make sure you save it as a plain `.txt` file.
-
-> ## Downloading reads
-> For downloading the reads there are mainly two options:
-> * Go to the **Run Browser** of each sample, navigate to the tab **FASTA/FASTQ download** and click on the **FASTQ** button. This strategy is for downloading each sample **one by one**.
-> * In the SRA **Run Selector** of the BioProject, go to the **Select** section and click on the **Accession List** button, this will 
-> download a text file `SRR_Acc_List.txt` that you can use to download the reads **in bulk** with the [SRA Toolkit](http://www.ncbi.nlm.nih.gov/Traces/sra/?view=toolkit_doc), a command-line software package, which is outside the scope of this lesson.
-{: .callout}
+After answering the questions, you should avoid saving any changes you might have made to this file. We don't want to make any changes. If you were to save this file, make sure you save it as a plain `.txt` file. Remeber to keep raw things raw.
 
 > ## Discussion 2: Exploring the European Nucleotide Archive
 >
 > Navigate to the [ENA](https://www.ebi.ac.uk/ena) and search the BioProject "PRJEB22811". Explore the ENA Browser and discuss with your 
-> neighbour if you preferr the ENA Browser or the SRA Run Selector.
+> neighbour the differences between the ENA Browser and the SRA Run Selector.
 >
 {: .challenge}
+
+> ## Downloading reads
+> For downloading the reads there are mainly two options:
+> * One by one: Go to the **Run Browser** of each sample, navigate to the tab **FASTA/FASTQ download** and click on the **FASTQ** button.
+> * Complete dataset: In the SRA **Run Selector** of the BioProject, go to the **Select** section and click on the **Accession List** button, this will 
+> download a text file `SRR_Acc_List.txt` that you can use to download the reads in bulk with the [SRA Toolkit](http://www.ncbi.nlm.nih.gov/Traces/sra/?view=toolkit_doc), a command-line software package, which is outside the scope of this lesson.
+{: .callout}
 
 ## Where to learn more
 
