@@ -57,8 +57,6 @@ The image below shows an excerpt from the paper that includes information on how
 
 8. Click on the “Metadata” button to download the file “SraRunTable.txt” and save it on your computer.
 
-**You should now have a file called `SraRunTable.txt`**
-
 ## Review the SraRunTable in a spreadsheet program
 
 Using your choice of spreadsheet program, open the `SraRunTable.txt` file. If prompted by the spreadsheet software be aware that the SRA Run Selector provides a **comma-separated** file.
@@ -93,18 +91,19 @@ Using your choice of spreadsheet program, open the `SraRunTable.txt` file. If pr
 
 After answering the questions, you should avoid saving any changes you might have made to this file. We don't want to make any changes. If you were to save this file, make sure you save it as a plain `.txt` file.
 
-## Downloading a few sequencing files: EMBL-EBI 
+> ## Downloading reads
+> For downloading the reads there are mainly two options:
+> * Go to the **Run Browser** of each sample, navigate to the tab **FASTA/FASTQ download** and click on the **FASTQ** button. This strategy is for downloading each sample **one by one**.
+> * In the SRA **Run Selector** of the BioProject, go to the **Select** section and click on the **Accession List** button, this will 
+> download a text file `SRR_Acc_List.txt` that you can use to download the reads **in bulk** with the [SRA Toolkit](http://www.ncbi.nlm.nih.gov/Traces/sra/?view=toolkit_doc), a command-line software package, which is outside the scope of this lesson.
+{: .callout}
 
-The SRA does not support direct download of fastq files from its webpage. However, the [European Nucleotide Archive](https://www.ebi.ac.uk/ena) does. Let's see how we can get a download link to a file we are interested in. 
-
-1. Navigate to the [ENA](https://www.ebi.ac.uk/ena).
-
-2. In the search bar, type in `PRJEB22811`. Make sure there are no spaces after the BioProject accession number, and press search.
-
-3. You will see a table with information about the sample. In the table, there is a 
-"FASTQ files (FTP)". If you wanted to download the files to your computer, you could click on the links to download the files. Alternatively, right click and copy the URL to save it for later. We don't need to download these files right now, and because they are large we won't put them on our computers now.
-
-We don't recommend downloading large numbers of sequencing files this way. For that, the NCBI has made a software package called the `sra-toolkit`. However, for a couple files, it's often easier to go through the ENA. 
+> ## Discussion 2: Exploring the European Nucleotide Archive
+>
+> Navigate to the [ENA](https://www.ebi.ac.uk/ena) and search the BioProject "PRJEB22811". Explore the ENA Browser and discuss with your 
+> neighbour if you preferr the ENA Browser or the SRA Run Selector.
+>
+{: .challenge}
 
 ## Where to learn more
 
