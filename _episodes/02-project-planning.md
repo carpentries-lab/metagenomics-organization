@@ -37,10 +37,12 @@ methods and approaches we need in bioinformatics are the same ones we need at th
 > 
 > > ## Solution
 > > With large datasets is hard to have enough storage space for your data and your results, 
-> > and to be able to anticipate how much disc space and processing time do you need for every step of 
-> > your pipelines, including intermediate files and results.
-> > It is hard to identify errors when you have too many files and too many observations in a spreadsheet.
-> >  
+> > and is hard to anticipate how much disc space and processing time do you need for every step of 
+> > your pipelines, including intermediate files and results.  
+> > It is hard to identify errors when you have too many files and too many observations in a spreadsheet.  
+> > Some programs may not work or perform poorly with a big amount of files.
+> > Data can be protected by removing file permissions and having copies.
+> > 
 > {: .solution}
 {: .challenge}
 
