@@ -10,12 +10,12 @@ objectives:
 - "Think about and understand the types of metadata a sequencing experiment will generate."
 - "Understand the importance of metadata and potential metadata standards."
 - "Explore common formatting challenges in spreadsheet data."
-- "Consider confidentiality issues that may arise from storing and sharing the metadata"
+- "Consider confidentiality issues that may arise from storing and sharing the metadata."
 keypoints:
 - "Assigning and keeping track of appropriate unique ID identifiers must be a well-thought process."
 - "Metadata is key for you and others to be able to work with your data."
 - "Tabular data needs to be structured to be able to work with it effectively."
-- "Hhuman microbiome data requires informed consent and confidentiality".
+- "Human microbiome data requires informed consent and confidentiality."
 ---
 
 ## Introduction
@@ -112,7 +112,12 @@ consistent and can be used across the field.
 > {: .solution}
 {: .challenge}
 
-- Confidentiality
+
+> ## Ethical considerations in Human studies
+> Unique identifiers are a unique name for a sample or set of sequencing data.
+> They are names for that data that only exist for that data. Having these
+> unique names makes them much easier to track later.
+{: .callout}
 
 
 ### Structuring data in spreadsheets
