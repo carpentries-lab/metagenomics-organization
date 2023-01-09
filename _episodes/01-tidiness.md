@@ -114,9 +114,9 @@ consistent and can be used across the field.
 
 
 > ## Ethical considerations in Human studies
-> Unique identifiers are a unique name for a sample or set of sequencing data.
-> They are names for that data that only exist for that data. Having these
-> unique names makes them much easier to track later.
+>[Microbiome ethics, guiding principles for microbiome research, use and knowledge management Lange et al 2022](https://environmentalmicrobiome.biomedcentral.com/articles/10.1186/s40793-022-00444-y)
+>[Ethical, legal, and social considerations in conducting the Human Microbiome Project, McGuire et al 2008](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4024738/)
+https://onlinelibrary.wiley.com/doi/abs/10.1002/9780470015902.a0029126
 {: .callout}
 
 
