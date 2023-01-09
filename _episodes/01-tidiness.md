@@ -5,14 +5,17 @@ exercises: 5
 questions:
 - "What metadata should I collect?"
 - "How should I structure my sequencing data and metadata?"
+- "Which ethic considerations involve microbiome data?" 
 objectives:
 - "Think about and understand the types of metadata a sequencing experiment will generate."
 - "Understand the importance of metadata and potential metadata standards."
 - "Explore common formatting challenges in spreadsheet data."
+- "Consider confidentiality issues that may arise from storing and sharing the metadata"
 keypoints:
 - "Assigning and keeping track of appropriate unique ID identifiers must be a well-thought process."
 - "Metadata is key for you and others to be able to work with your data."
 - "Tabular data needs to be structured to be able to work with it effectively."
+- "Hhuman microbiome data requires informed consent and confidentiality".
 ---
 
 ## Introduction
@@ -109,6 +112,9 @@ consistent and can be used across the field.
 > {: .solution}
 {: .challenge}
 
+- Confidentiality
+
+
 ### Structuring data in spreadsheets
 
 Independent of the type of data you're collecting, there are standard ways to enter that data 
@@ -159,6 +165,7 @@ analysis you want to do, you may even separate the genus and species names into 
 > {: .solution}
 {: .challenge}
 
+## Heritage 
 ## Further notes on data tidiness
 
 Data organization at this point of your experiment will help facilitate your analysis later, as well as prepare your data and notes for data deposition now often required by journals and funding agencies. If this is a collaborative project, as most projects are now, it's also information that collaborators will need to interpret your data and results and is very useful for communication and efficiency.
