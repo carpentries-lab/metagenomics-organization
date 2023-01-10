@@ -26,25 +26,27 @@ The [sequencing dataset (from Okie, *et al.* 2020) adapted for this workshop](ht
 
 ## Using the SRA Run Selector
 
-See the figures below for how information about data access is provided within the original paper. 
+See the figures below to find about how data accession is provided within the original paper. 
 
-The next image shows the title of the study, as well as the authors.
+The next image shows the title of the study "_Genomic adaptations in information processing underpin trophic strategy in a whole-ecosystem nutrient enrichment experiment_", as well as the authors.
 
 <img style='border:1px solid #000000' src="../fig/01-03-01.png" width="800" alt="Screenshot of the cover page of the article named: Genomic adaptations in information processing underpin trophic strategy in a whole-ecosystem nutrient enrichment experiment"/>
 
-The image below shows an excerpt from the paper that includes information on how to locate the sequence data. In this case, the text appears just before the reference section.
+The image below shows an excerpt from the paper that includes information on locating the sequence data. In this case, this text occurs just before the reference section. In the section data availability, the image says that data and metadata have been submitted to the Sequence Reading Archive (SRA) in NCBI and are accessible through the BioProject PRJEB22811. Notice that metadata registers that year was 2017, the place was Cuatro Cienegas Lagunita, the experiment was a fertilization one, and the author is The Craig Venter´s institute.
 
 <img style='border:1px solid #000000' src="../fig/01-03-02.png" width="800" alt="Screenshot of the section of the article called Additional file. It show the following text: Supplementary files: Source data 1. Data on the metagenomic traits and concentrations of seston chlorophyll a, phosphorus, nitroge, and carbon in water samples from Lagunitas pond, Cuatro ciénegas, Mexico. Data availability: Raw sequence data and metadata have been submitted to the NCBI Sequence Read Archive, accessible through BioProject PRJEB228811. The following dataset was generated: Author(s): J Craig Venter Institute, Year: 2017, Dataset title: Cuatro Ciénegas Lagunita Fertilization Experiment, Database and Identifier: NCBI BioProject, PREJB22811, Dataset URL"/>
 
+Follow the next steps to access the data in the SRA using the information in this section. 
+
 1. Notice that the paper references "PRJEB22811" as a "BioProject" at NCBI. Go to the [NCBI website](https://www.ncbi.nlm.nih.gov/) and search for "PRJEB22811".
 
-2. You will be shown a link to the "Cuatro Cienegas Lagunita Fertilization Experiement" BioProject. click on it. 
+2. You will be shown a link to the "Cuatro Cienegas Lagunita Fertilization Experiement" BioProject. Click on it. 
 
 2. Once on the BioProject page, scroll down to the table under **Project Data**. 
 
-3. This table says there are 40 links to the SRA Experiments of this project, click on that number 40.
+3. This table says there are 40 links to the SRA Experiments of this project, click on the number 40.
 
-4. Now you are on the NCBI-SRA page with the 40 samples of this project. In the top of the page there is a **Send to:** dropdown menu, click on it, select **Run Selector** and click **Go**. This will take you to [this page](https://www.ncbi.nlm.nih.gov/Traces/study/?query_key=3&WebEnv=MCID_63862368904478135adcaff4&o=acc_s%3Aa) in the SRA Run Selector. This is NCBI’s new cloud-based SRA interface. You will be presented with a page for the overall BioProject accession PRJEB22811 - this is a collection of all the experimental data.
+4. Now you are on the NCBI-SRA site with the 40 samples of this project. In the top of the page there is a **Send to:** dropdown menu, click on it, select **Run Selector** and click **Go**. This will take you to [this page](https://www.ncbi.nlm.nih.gov/Traces/study/?query_key=3&WebEnv=MCID_63862368904478135adcaff4&o=acc_s%3Aa) in the SRA Run Selector. This is NCBI’s new cloud-based SRA interface. You will be presented with a page for the overall BioProject accession PRJEB22811 - this is a collection of all the experimental data.
 
 5. Notice on this page there are three sections. “Common Fields” “Select”, and “Found 40 Items”. Within “Found 40 Items”, click on the first Run number (Column “Run”, Row “1”). 
 <img style='border:1px solid #000000' src="../fig/01-03-04.png" width="800" alt="Screenshot of the sections Select and Found 40 Items"/>
