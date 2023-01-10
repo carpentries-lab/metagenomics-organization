@@ -91,9 +91,6 @@ consistent and can be used across the area.
 > and some that are particularly relevant for genomics data are available from the [Genomics Standards Consortium](http://gensc.org/projects/).
 > In particular, assembly quality and an estimate of genome completeness and contamination are [standars for Metagenome-Assambled-Genomes](https://www.nature.com/articles/nbt.3893) (MAGs).  
 >
-> If in your field there aren't metadata standards yet, you can think about what the 
-> minimum amount of information is that someone would need to know about your data 
-> to be able to work with it, without talking to you.
 > The Cornell University gives us a useful [guide](https://data.research.cornell.edu/content/readme) and template [file](https://github.com/nselem/organization-metagenomics/blob/master/files/AUTHOR_DATASET_ReadmeTemplate.txt) to write a README-style metadata in case 
 > there are no metadata standards for your type of data.  
 > When you submit data to an organization, they may give you a file that says how to create a 
@@ -101,7 +98,9 @@ consistent and can be used across the area.
 > field should contain. For example, MG-RAST gives a file like [this](../files/01_MGRAST_DATA.xlsx).
 {: .callout}
 
-> ## Discussion 1
+> ## Discussion 1. What type of information would you write in your README file? 
+> Supose that in your field there are not metadata standards yet. Think about what the 
+> minimum amount of information that someone would need to be able to work with your data without talking to you. 
 > What type of information would you put in your README file? 
 >
 > > ## Solution
@@ -116,12 +115,18 @@ consistent and can be used across the area.
 {: .challenge}
 
 
-> ## Ethical considerations in microbiome studies
-> While studying some of the Human microbiomes there are some ethical concerns to think about. For example, ask participants to sign explicit informed concern,  protect their privacy, establish a policy about results communications. For example, what would be the protocol to inform if an infection with some pathogen is present in the microbiome, that could be the case in HIV in the blood microbiome, what If participants did not want to know? Some of this questions are discused by Mc Guire et al in the paper:[Ethical, legal, and social considerations in conducting the Human Microbiome Project](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4024738/)
->  Even beyond Human studies, the knowledge about microbiomes are global heritage [Microbiome ethics, guiding principles for microbiome research, use and knowledge management](https://environmentalmicrobiome.biomedcentral.com/articles/10.1186/s40793-022-00444-y)'
->
-https://onlinelibrary.wiley.com/doi/abs/10.1002/9780470015902.a0029126
-{: .callout}
+> ## Discussion 2: Ethical considerations in microbiome studies
+> The microbiomes knowledge is human's global heritage, and must be ruled by ethical principles such as do good, don't harm, respect, act justly.
+> While studying the human microbiome there are particular concerns to think about. For example, if you discover an infection such as HIV in the blood microbiome, would you inform the participants? What If they did not want to know? Following What other polycyes must be followed?
+>> 1. Respect: Ask participants to sign explicit a prior informed concern.  
+>> 2. Do good: Share the data but protect participant's privacy
+>> 3. Do not harm: establish a policy about results communications. F
+>> 4. Do not harm Invasiveness of sampling and minimizing risk
+>> 5. Act justly: Favor diversity of subjects and justice
+>> Some of this questions are discused by Mc Guire et al in the paper:[Ethical, legal, and social considerations in conducting the Human Microbiome Project](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4024738/)
+>> [Microbiome ethics, guiding principles for microbiome research, use and knowledge management](https://environmentalmicrobiome.biomedcentral.com/articles/10.1186/s40793-022-00444-y)'
+> {: .solution}
+{: .challenge}
 
 
 ### Structuring data in spreadsheets
