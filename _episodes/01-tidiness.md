@@ -1,7 +1,7 @@
 ---
 title: "Data Tidiness"
 teaching: 10
-exercises: 5
+exercises: 10
 questions:
 - "What metadata should I collect?"
 - "How should I structure my sequencing data and metadata?"
@@ -13,16 +13,16 @@ objectives:
 - "Consider confidentiality issues that may arise from storing and sharing the metadata."
 keypoints:
 - "Assigning and keeping track of appropriate unique ID identifiers must be a well-thought process."
-- "Metadata is key for you and others to be able to work with your data."
-- "Tabular data needs to be structured to be able to work with it effectively."
+- "Metadata is key for you and others to work with your data."
+- "Tabular data needs to be structured to work with it effectively."
 - "Human microbiome data requires informed consent and confidentiality."
 ---
 
 When we think about the data for a sequencing project, we often start by thinking about 
 the sequencing data that we get back from the sequencing center, but just as important, 
-if not more so, is the data you've generated about the sequences before they ever go to 
-the sequencing center. This is the data about the data, often called the metadata. 
-Without the information about what you sequenced, the sequence data itself is useless.  
+if not more so, is the data you have generated about the sequences before they ever go to 
+the sequencing center. Data about the data are often called the metadata. 
+The sequence data itself is useless without the information about what you sequenced.  
 
 > ## Discussion 1
 > With the person next to you, discuss:
@@ -34,37 +34,37 @@ Without the information about what you sequenced, the sequence data itself is us
 > > - Spreadsheet or tabular data with the data from your experiment and 
 > >   whatever you were measuring for your study.
 > > - Lab notebook notes about how you conducted those experiments.
-> > - Spreadsheet or tabular data about the samples you sent off for sequencing. 
+> > - Spreadsheet or tabular data about the samples you sent for sequencing. 
 > > Sequencing centers often have a particular format they need 
-> > with the name of the sample, DNA concentration and other information.
+> > with the name of the sample, DNA concentration, and other information.
 > > - Lab notebook notes about how you prepared the DNA/RNA for sequencing and what 
-> > type of sequencing you're doing, e.g. paired end Illumina HiSeq.
+> > type of sequencing you are doing, e.g., paired-end Illumina HiSeq.
 > > There likely will be other ideas here too.
 > > Was this more information and data than you were expecting?
 > > 
 > {: .solution}
 {: .challenge}
 
-All of the data and information just discussed can be considered metadata, 
-i.e. data about the data. We want to follow a few guidelines for metadata.
+All the data and information discussed can be considered metadata, 
+i.e., data about the data. We want to follow a few guidelines for metadata.
 
 ## Notes about your experiment
 
 Notes about your experiment, including how you prepared your samples for sequencing, 
-should be in your lab notebook, whether that's a physical lab notebook or electronic lab notebook. 
+should be in your lab notebook, whether a physical lab notebook or an electronic one. 
 For guidelines on good lab notebooks, see the Howard Hughes Medical Institute 
 "Making the Right Moves: A Practical Guide to Scientifıc Management for Postdocs and New Faculty" 
-section on [Data Management and Laboratory Notebooks](http://www.hhmi.org/sites/default/files/Educational%20Materials/Lab%20Management/Making%20the%20Right%20Moves/moves2_ch8.pdf).
+the section on [Data Management and Laboratory Notebooks](http://www.hhmi.org/sites/default/files/Educational%20Materials/Lab%20Management/Making%20the%20Right%20Moves/moves2_ch8.pdf).
 
 
-Including dates on your lab notebook pages, the samples themselves and in
-any records about those samples helps you associate everything with each
-other later. Using dates also helps create unique identifiers, because even
-if you process the same sample twice, you don't usually do it on the same
-day, or if you do, you're aware of it and give them names like A and B.
+Including dates on your lab notebook pages, the samples themselves, and in
+any records about those samples help you associate everything with each
+other later. Using dates also helps create unique identifiers because even
+if you process the same sample twice, you do not usually do it on the same
+day, or if you do, you are aware of it and give them names like A and B.
 
 > ## Unique identifiers
-> Unique identifiers are a unique name for a sample or set of sequencing data.
+> Unique identifiers are unique names for a sample or set of sequencing data.
 > They are names for that data that only exist for that data. Having these
 > unique names makes them much easier to track later.
 {: .callout}
@@ -72,26 +72,26 @@ day, or if you do, you're aware of it and give them names like A and B.
 ## Metadata: Data about the experiment
 
 Data about the experiment is usually collected in **spreadsheets**, like Excel. 
-Alongside the spreadsheet is convenient to create a text file called **README**. 
+Alongside the spreadsheet, creating a text file called **README**is convenient. 
 This file holds information about the research project, how the samples were generated, 
-and information about how to read the metadata spreadsheet. 
-Having this information is very convenient when you’re working on a team and more
-people start to join the project even at different 
-steps of the experiment. This may help better your collaborators to easy understand 
+and how to read the metadata spreadsheet. 
+This information is very convenient when working on a team, and more
+people join the project even at different 
+experiment steps. This order may help better your collaborators to easily understand 
 what the data is about.
 
 > ## Metadata standards
-> The kind of data you would collect depends on your experiment, often there are guidelines from metadata standards.
-> Many fields have particular ways that they structure their metadata, so it's consistent and can be used across the area. The Digital Curation Center maintains 
-> [a list of metadata  standards](http://www.dcc.ac.uk/resources/metadata-standards/list) and some that are particularly relevant for genomics data are available from the [Genomics Standards Consortium](http://gensc.org/projects/). In particular, assembly quality and an estimate of genome completeness and contamination are [standars for Metagenome-Assambled-Genomes](https://www.nature.com/articles/nbt.3893) (MAGs).  
+> The kind of data you would collect depends on your experiment; often, there are guidelines from metadata standards.
+> Many fields have particular ways that they structure their metadata, so it is consistent and can be used across the area. The Digital Curation Center maintains 
+> [a list of metadata standards](http://www.dcc.ac.uk/resources/metadata-standards/list) and some that are particularly relevant for genomics data are available from the [Genomics Standards Consortium](http://gensc.org/projects/). In particular, assembly quality and an estimate of genome completeness and contamination are [standards for Metagenome-Assambled-Genomes](https://www.nature.com/articles/nbt.3893) (MAGs).  
 >
-> The Cornell University gives us a useful [guide](https://data.research.cornell.edu/content/readme) and template [file](https://github.com/nselem/organization-metagenomics/blob/master/files/AUTHOR_DATASET_ReadmeTemplate.txt) to write a README-style metadata in case 
+> Cornell University gives us a useful [guide](https://data.research.cornell.edu/content/readme) and template [file](https://github.com/nselem/organization-metagenomics/blob/master/files/AUTHOR_DATASET_ReadmeTemplate.txt) to write README-style metadata in case 
 > there are no metadata standards for your type of data. When you submit data to an organization, they may give you a file with specifications about  
-> metadata needed for their platform. For example, MG-RAST gives a file like [this](../files/01_MGRAST_DATA.xlsx).
+> the metadata needed for their platform. For example, MG-RAST gives a file like [this](../files/01_MGRAST_DATA.xlsx).
 {: .callout}
 
 > ## Discussion 2. What information would you write in your README file? 
-> Supose that in your field there are not metadata standards yet. Think about what the 
+> Suppose that in your field, there are no metadata standards yet. Think about the 
 > minimum amount of information that someone would need to be able to work with your data without talking to you. 
 > What type of information would you put in your README file? 
 >
@@ -101,15 +101,15 @@ what the data is about.
 > > * Meaning of abbreviations.
 > > * Meaning or pattern followed to construct the unique IDs of samples.
 > > * Details about the methodology.
-> > * Contact information about the persons who perfomed the collection and/or experiments.
+> > * Contact information about the persons who performed the collection and/or experiments.
 > > * Meaning of each variable name.
 > {: .solution}
 {: .challenge}
 
 
 > ## Discussion 3: Ethical considerations in microbiome studies
-> The microbiomes knowledge is human's global heritage and must be ruled by ethical principles such as do good, don't harm, respect, and act justly.
-> While studying the human microbiome, there are particular concerns to think about. For example, if you discover an infection such as HIV in the blood microbiome, would you inform the participants? What If they did not want to know? Following these principles, What other ethical considerations can you think about human microbiomes? 
+> The microbiomes knowledge is human's global heritage and must be ruled by ethical principles such as do good, do not harm, respect, and act justly.
+> While studying the human microbiome, there are particular concerns. For example, if you discover an infection such as HIV in the blood microbiome, would you inform the participants? What If they did not want to know? Following these principles, What other ethical considerations can you think about human microbiomes? 
 > > ## Solution
 > > 1. Respect: Ask participants to sign explicit prior informed consent.  
 > > 2. Do good: Share the data but protect participant's privacy
@@ -124,55 +124,55 @@ what the data is about.
 
 ### Structuring data in spreadsheets
 
-Independent of the type of data you're collecting, there are standard ways to enter that data 
-into the spreadsheet, to make it easier to analyze later. We often enter data that makes it easy 
-for us as humans to read and work with it, because we're human! Computers need data structured in 
+Independent of the type of data you are collecting, there are standard ways to enter that data 
+into the spreadsheet to make it easier to analyze later. We often enter data that makes it easy 
+for us as humans to read and work with it because we are human! Computers need data structured in 
 a way that they can use it. So to use this data in a computational workflow, we need to think 
 like computers when we use spreadsheets.
 
 The cardinal rules of using spreadsheet programs for data:
 
-- Leave the raw data raw - don’t change it!
+- Leave the raw data raw - do not change it!
 - Put each observation in its own row. An observation is each of our samples, 
 the subjects for which we store information in the spreadsheet. 
 - Put all your variables in columns. The variables are the different pieces of information 
-that we have about our sample (its genotype, its phenotype, its treatment, etc.). 
-- Have column names be explanatory, but without spaces. Use '-', '_' or 
+that we have about our sample (its genotype, phenotype, treatment, etc.). 
+- Have column names explanatory but without spaces. Use '-', '_' or 
 [camel case](https://en.wikipedia.org/wiki/Camel_case) instead of a space. 
-For instance 'library-prep-method' or 'LibraryPrep'is better than 'library preparation method' 
+For instance, 'library-prep-method' or 'LibraryPrep'is better than 'library preparation method' 
 or 'prep', because computers interpret spaces in particular ways.
-- Don’t combine multiple pieces of information in one cell. Sometimes it just seems 
-like one thing, but think if that’s the only way you’ll want to be able to use or sort that data. 
-For example, instead of having a column with species and strain name (e.g. *E. coli* 
+- Do not combine multiple pieces of information in one cell. Sometimes it just seems 
+like one thing, but think if that is the only way you will want to be able to use or sort that data. 
+For example, instead of having a column with species and strain name (e.g., *E. coli* 
 K12) you would have one column with the species name (*E. coli*) and another with 
 the strain name (K12). Depending on the type of analysis you want to do, you may
 even separate the genus and species names into distinct columns.
-- Export the cleaned data to a text-based format like CSV (comma-separated values) format. 
-This ensures that anyone can use the data, and is required by most data repositories.
+- Export the cleaned data to a text-based format like CSV (comma-separated values). 
+This format ensures that anyone can use the data required by most data repositories.
 
 [![Messy spreadsheet](../fig/01_tidiness_datasheet_example_messy.png)](https://github.com/datacarpentry/organization-genomics/raw/gh-pages/files/Ecoli_metadata_composite_messy.xlsx)
 
 > ## Discussion 4. Spreadsheet organization.
-> This is a potential spreadsheet data generated about a sequencing experiment. With the person next to you, for about 2 minutes, discuss some of the problems with the spreadsheet data shown above. You can look at the image, or download the file to your computer via this [link](https://github.com/datacarpentry/organization-genomics/raw/gh-pages/files/Ecoli_metadata_composite_messy.xlsx) and open it in a spreadsheet reader like Excel. 
+> This is a potential spreadsheet data generated about a sequencing experiment. With the person next to you, for about 2 minutes, discuss some problems with the spreadsheet data shown above. You can look at the image or download the file to your computer via this [link](https://github.com/datacarpentry/organization-genomics/raw/gh-pages/files/Ecoli_metadata_composite_messy.xlsx) and open it in a spreadsheet reader like Excel. 
 >
 >
 > > ## Solution
-> > There are a few potential errors to be on the lookout for in your own data as well as data from collaborators or the Internet. If you are aware of the errors and the possible negative effect on downstream data analysis and result interpretation, it might motivate yourself and your project members to try and avoid them. Making small changes to the way you format your data in spreadsheets can have a great impact on efficiency and reliability when it comes to data cleaning and analysis.
+> > There are a few potential errors to be on the lookout for in your own data and data from collaborators or the Internet. Suppose you are aware of the errors and the possible negative effect on downstream data analysis and result interpretation. In that case, it might motivate you and your project members to try and avoid them. Making small changes to how you format your data in spreadsheets can greatly impact efficiency and reliability when it comes to data cleaning and analysis.
 > >
 > > - Using multiple tables
 > > - Using multiple tabs
 > > - Not filling in zeros
 > > - Using problematic null values
 > > - Using formatting to convey information
-> > - Using formatting to make the data sheet look pretty
+> > - Using formatting to make the datasheet look pretty
 > > - Placing comments or units in cells
 > > - Entering more than one piece of information in a cell
 > > - Using problematic field names
 > > - Using special characters in data
-> > - Inclusion of metadata in data table
+> > - Inclusion of metadata in the data table
 > > - Date formatting
 > > 
-> > You can keep exploring issues on metadata file in the [Data Carpentry Ecology spreadsheet lesson](http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/). Not all are present in this example. Discuss with the group what they found. Some problems include not all data sets having the same columns, datasets split into their own tables, color to encode information, different column names, spaces in some columns names. Here is a "clean" version of the same spreadsheet:
+> > You can keep exploring issues on the metadata file in the [Data Carpentry Ecology spreadsheet lesson](http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/). Not all are present in this example. Discuss with the group what they found. Some problems include not all data sets having the same columns, datasets split into their own tables, color to encode information, different column names, and spaces in some columns names. Here is a "clean" version of the same spreadsheet:
 > >
 > > [Cleaned spreadsheet](https://raw.githubusercontent.com/datacarpentry/wrangling-genomics/gh-pages/files/Ecoli_metadata_composite.tsv)
 > > Download the file using right-click (PC)/command-click (Mac). 
@@ -185,13 +185,13 @@ This ensures that anyone can use the data, and is required by most data reposito
 Data organization at this point of your experiment will help facilitate 
 your analysis later, as well as prepare your data and notes for data deposition
 now often required by journals and funding agencies. If this is a collaborative
-project, as most projects are now, it's also information that collaborators will
+the project, as most projects are now, it is also information that collaborators will
 need to interpret your data and results and is very useful for communication and
 efficiency.
 
-Fear not! If you have already started your project, and it's not set up this way, 
+Fear not! If you have already started your project and it is not set up this way, 
 there are still opportunities to make updates. One of the biggest challenges is 
-tabular data that isn't formatted so computers can use it, or has inconsistencies
+tabular data that is not formatted so computers can use it or has inconsistencies
 that make it hard to analyze.
 
 More practice on how to structure data is outlined in our 
