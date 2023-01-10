@@ -82,16 +82,11 @@ what the data is about.
 
 > ## Metadata standards
 > The kind of data you would collect depends on your experiment, often there are guidelines from metadata standards.
-> Many fields have particular ways that they structure their metadata, so it's
-consistent and can be used across the area.
->
-> The Digital Curation Center maintains [a list of metadata  standards](http://www.dcc.ac.uk/resources/metadata-standards/list) 
-> and some that are particularly relevant for genomics data are available from the [Genomics Standards Consortium](http://gensc.org/projects/).
-> In particular, assembly quality and an estimate of genome completeness and contamination are [standars for Metagenome-Assambled-Genomes](https://www.nature.com/articles/nbt.3893) (MAGs).  
+> Many fields have particular ways that they structure their metadata, so it's consistent and can be used across the area. The Digital Curation Center maintains 
+> [a list of metadata  standards](http://www.dcc.ac.uk/resources/metadata-standards/list) and some that are particularly relevant for genomics data are available from the [Genomics Standards Consortium](http://gensc.org/projects/). In particular, assembly quality and an estimate of genome completeness and contamination are [standars for Metagenome-Assambled-Genomes](https://www.nature.com/articles/nbt.3893) (MAGs).  
 >
 > The Cornell University gives us a useful [guide](https://data.research.cornell.edu/content/readme) and template [file](https://github.com/nselem/organization-metagenomics/blob/master/files/AUTHOR_DATASET_ReadmeTemplate.txt) to write a README-style metadata in case 
-> there are no metadata standards for your type of data.  
-> When you submit data to an organization, they may give you a file with specifications about  
+> there are no metadata standards for your type of data. When you submit data to an organization, they may give you a file with specifications about  
 > metadata needed for their platform. For example, MG-RAST gives a file like [this](../files/01_MGRAST_DATA.xlsx).
 {: .callout}
 
