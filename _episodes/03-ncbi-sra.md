@@ -42,19 +42,19 @@ Follow the next steps to access the data in the SRA using the information in thi
 
 2. You will be shown a link to the "Cuatro Cienegas Lagunita Fertilization Experiement" BioProject. Click on it. 
 
-2. Once on the BioProject page, scroll down to the table under **Project Data**. 
+3. Once on the BioProject page, scroll down to the table under **Project Data**. 
 
-3. This table says there are 40 links to the SRA Experiments of this project, click on the number 40.
+4. This table says there are 40 links to the SRA Experiments of this project, click on the number 40.
 
-4. Now you are on the NCBI-SRA site with the 40 samples of this project. In the top of the page there is a **Send to:** dropdown menu, click on it, select **Run Selector** and click **Go**. This will take you to [this page](https://www.ncbi.nlm.nih.gov/Traces/study/?query_key=3&WebEnv=MCID_63862368904478135adcaff4&o=acc_s%3Aa) in the SRA Run Selector. This is NCBI’s new cloud-based SRA interface. You will be presented with a page for the overall BioProject accession PRJEB22811 - this is a collection of all the experimental data.
+5. Now you are on the NCBI-SRA site with the 40 samples of this project. In the top of the page there is a **Send to:** dropdown menu, click on it, select **Run Selector** and click **Go**. This will take you to [this page](https://www.ncbi.nlm.nih.gov/Traces/study/?query_key=3&WebEnv=MCID_63862368904478135adcaff4&o=acc_s%3Aa) in the SRA Run Selector. This is NCBI’s new cloud-based SRA interface. You will be presented with a page for the overall BioProject accession PRJEB22811 - this is a collection of all the experimental data.
 
-5. Notice on this page there are three sections. “Common Fields” “Select”, and “Found 40 Items”. Within “Found 40 Items”, click on the first Run number (Column “Run”, Row “1”). 
+6. Notice on this page there are three sections. “Common Fields”, “Select”, and “Found 40 Items”. Within “Found 40 Items”, click on the first Run number (Column “Run”, Row “1”). In the next image the sections "Select" and "Found 40 items" are shown. Select contains information about thesize of the run and the table of data and metadta
 <img style='border:1px solid #000000' src="../fig/01-03-04.png" width="800" alt="Screenshot of the sections Select and Found 40 Items"/>
 
-6. This will take you to a page that is a **Run Browser**. Take a few minutes to examine some of the descriptions on the page.
+7. This will take you to a page that is a **Run Browser**. Take a few minutes to examine some of the descriptions on the page.
 <img style='border:1px solid #000000' src="../fig/01-03-05.png" width="800" alt="Screenshot of details for the selected run. It shows the details of the sequence file, a quality graph, the metadata, the Biosample details and BioProject details."/>
 
-7. Use the browser’s back button to go back to the 'previous page'. As shown in the figure below, the second section of the page (“Select”) has the **Total** row showing you the current number of “Runs”, “Bytes”, and “Bases” in the dataset to date. On 2012-06-27 there were 40 runs, 9.86 GBytes of data, and 19.61 Gbases of data. 
+8. Use the browser’s back button to go back to the 'previous page'. As shown in the figure below, the second section of the page (“Select”) has the **Total** row showing you the current number of “Runs”, “Bytes”, and “Bases” in the dataset to date. On 2012-06-27 there were 40 runs, 9.86 GBytes of data, and 19.61 Gbases of data. 
 <img style='border:1px solid #000000' src="../fig/01-03-06.png" width="800" alt="Screenshot of the section Select, with two rows with the number of runs, bytes, bases and buttons to download the Metadata and Accession List, one row for Total and one row for Selected."/>
 
 8. Click on the “Metadata” button to download the file “SraRunTable.txt” and save it on your computer.
