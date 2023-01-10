@@ -98,7 +98,7 @@ consistent and can be used across the area.
 > field should contain. For example, MG-RAST gives a file like [this](../files/01_MGRAST_DATA.xlsx).
 {: .callout}
 
-> ## Discussion 1. What type of information would you write in your README file? 
+> ## Discussion 1. What information would you write in your README file? 
 > Supose that in your field there are not metadata standards yet. Think about what the 
 > minimum amount of information that someone would need to be able to work with your data without talking to you. 
 > What type of information would you put in your README file? 
@@ -116,15 +116,16 @@ consistent and can be used across the area.
 
 
 > ## Discussion 2: Ethical considerations in microbiome studies
-> The microbiomes knowledge is human's global heritage, and must be ruled by ethical principles such as do good, don't harm, respect, act justly.
-> While studying the human microbiome there are particular concerns to think about. For example, if you discover an infection such as HIV in the blood microbiome, would you inform the participants? What If they did not want to know? Following What other polycyes must be followed?
->> 1. Respect: Ask participants to sign explicit a prior informed concern.  
->> 2. Do good: Share the data but protect participant's privacy
->> 3. Do not harm: establish a policy about results communications. F
->> 4. Do not harm Invasiveness of sampling and minimizing risk
->> 5. Act justly: Favor diversity of subjects and justice
->> Some of this questions are discused by Mc Guire et al in the paper:[Ethical, legal, and social considerations in conducting the Human Microbiome Project](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4024738/)
->> [Microbiome ethics, guiding principles for microbiome research, use and knowledge management](https://environmentalmicrobiome.biomedcentral.com/articles/10.1186/s40793-022-00444-y)'
+> The microbiomes knowledge is human's global heritage and must be ruled by ethical principles such as do good, don't harm, respect, and act justly.
+> While studying the human microbiome, there are particular concerns to think about. For example, if you discover an infection such as HIV in the blood microbiome, would you inform the participants? What If they did not want to know? Following What other policies must be followed?
+> > ## Solution
+> > 1. Respect: Ask participants to sign explicit prior informed consent.  
+> > 2. Do good: Share the data but protect participant's privacy
+> > 3. Do not harm: establish a policy about results communications. 
+> > 4. Do not harm: Consider the Invasiveness of sampling and minimize the risk
+> > 5. Act justly: Favor diversity of subjects and justice
+> > More information about these topics is developed by Mc Guire et al. in the paper:[Ethical, legal, and social considerations in conducting the Human Microbiome Project](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4024738/) and by Lange et al. 2008 in:
+> > [Microbiome ethics, guiding principles for microbiome research, use and knowledge management](https://environmentalmicrobiome.biomedcentral.com/articles/10.1186/s40793-022-00444-y)'
 > {: .solution}
 {: .challenge}
 
