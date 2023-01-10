@@ -18,8 +18,6 @@ keypoints:
 - "Human microbiome data requires informed consent and confidentiality."
 ---
 
-## Introduction
-
 When we think about the data for a sequencing project, we often start by thinking about 
 the sequencing data that we get back from the sequencing center, but just as important, 
 if not more so, is the data you've generated about the sequences before they ever go to 
@@ -50,7 +48,7 @@ Without the information about what you sequenced, the sequence data itself is us
 All of the data and information just discussed can be considered metadata, 
 i.e. data about the data. We want to follow a few guidelines for metadata.
 
-## Notes
+## Notes about your experiment
 
 Notes about your experiment, including how you prepared your samples for sequencing, 
 should be in your lab notebook, whether that's a physical lab notebook or electronic lab notebook. 
@@ -71,7 +69,7 @@ day, or if you do, you're aware of it and give them names like A and B.
 > unique names makes them much easier to track later.
 {: .callout}
 
-## Data about the experiment
+## Metadata: Data about the experiment
 
 Data about the experiment is usually collected in **spreadsheets**, like Excel. 
 Alongside the spreadsheet is convenient to create a text file called **README**. 
@@ -83,7 +81,7 @@ steps of the experiment. This may help better your collaborators to easy underst
 what the data is about.
 
 > ## Metadata standards
-> What type of data to collect depends on your experiment, and there are often guidelines from metadata standards.
+> The kind of data you would collect depends on your experiment, often there are guidelines from metadata standards.
 > Many fields have particular ways that they structure their metadata, so it's
 consistent and can be used across the area.
 >
@@ -93,9 +91,8 @@ consistent and can be used across the area.
 >
 > The Cornell University gives us a useful [guide](https://data.research.cornell.edu/content/readme) and template [file](https://github.com/nselem/organization-metagenomics/blob/master/files/AUTHOR_DATASET_ReadmeTemplate.txt) to write a README-style metadata in case 
 > there are no metadata standards for your type of data.  
-> When you submit data to an organization, they may give you a file that says how to create a 
-> metadata spreadsheet for their platform,  with specific instructions about what each metadata 
-> field should contain. For example, MG-RAST gives a file like [this](../files/01_MGRAST_DATA.xlsx).
+> When you submit data to an organization, they may give you a file with specifications about  
+> metadata needed for their platform. For example, MG-RAST gives a file like [this](../files/01_MGRAST_DATA.xlsx).
 {: .callout}
 
 > ## Discussion 2. What information would you write in your README file? 
