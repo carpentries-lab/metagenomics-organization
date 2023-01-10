@@ -73,22 +73,25 @@ day, or if you do, you're aware of it and give them names like A and B.
 
 ## Data about the experiment
 
-Data about the experiment is usually collected in **spreadsheets**, like Excel. Alongside the spreadsheet is convenient
-to create a text file called **README**. This file holds information about the research project, how the samples were generated, 
+Data about the experiment is usually collected in **spreadsheets**, like Excel. 
+Alongside the spreadsheet is convenient to create a text file called **README**. 
+This file holds information about the research project, how the samples were generated, 
 and information about how to read the metadata spreadsheet. 
-Having this information is very convenient when you’re working on a team and more people start to join the project even at different 
-steps of the experiment. This may help better your collaborators to easy understand what the data is about.
+Having this information is very convenient when you’re working on a team and more
+people start to join the project even at different 
+steps of the experiment. This may help better your collaborators to easy understand 
+what the data is about.
 
 > ## Metadata standards
-> What type of data to collect depends on your experiment and there are often guidelines from metadata standards.
-> Many fields have particular ways that they structure their metadata so it's
-consistent and can be used across the field.
+> What type of data to collect depends on your experiment, and there are often guidelines from metadata standards.
+> Many fields have particular ways that they structure their metadata, so it's
+consistent and can be used across the area.
 >
 > The Digital Curation Center maintains [a list of metadata  standards](http://www.dcc.ac.uk/resources/metadata-standards/list) 
 > and some that are particularly relevant for genomics data are available from the [Genomics Standards Consortium](http://gensc.org/projects/).
 > In particular, assembly quality and an estimate of genome completeness and contamination are [standars for Metagenome-Assambled-Genomes](https://www.nature.com/articles/nbt.3893) (MAGs).  
 >
-> If there aren't metadata standards already, you can think about what the 
+> If in your field there aren't metadata standards yet, you can think about what the 
 > minimum amount of information is that someone would need to know about your data 
 > to be able to work with it, without talking to you.
 > The Cornell University gives us a useful [guide](https://data.research.cornell.edu/content/readme) and template [file](https://github.com/nselem/organization-metagenomics/blob/master/files/AUTHOR_DATASET_ReadmeTemplate.txt) to write a README-style metadata in case 
@@ -113,9 +116,10 @@ consistent and can be used across the field.
 {: .challenge}
 
 
-> ## Ethical considerations in Human studies
->[Microbiome ethics, guiding principles for microbiome research, use and knowledge management Lange et al 2022](https://environmentalmicrobiome.biomedcentral.com/articles/10.1186/s40793-022-00444-y)
->[Ethical, legal, and social considerations in conducting the Human Microbiome Project, McGuire et al 2008](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4024738/)
+> ## Ethical considerations in microbiome studies
+> While studying some of the Human microbiomes there are some ethical concerns to think about. For example, ask participants to sign explicit informed concern,  protect their privacy, establish a policy about results communications. For example, what would be the protocol to inform if an infection with some pathogen is present in the microbiome, that could be the case in HIV in the blood microbiome, what If participants did not want to know? Some of this questions are discused by Mc Guire et al in the paper:[Ethical, legal, and social considerations in conducting the Human Microbiome Project](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4024738/)
+>  Even beyond Human studies, the knowledge about microbiomes are global heritage [Microbiome ethics, guiding principles for microbiome research, use and knowledge management](https://environmentalmicrobiome.biomedcentral.com/articles/10.1186/s40793-022-00444-y)'
+>
 https://onlinelibrary.wiley.com/doi/abs/10.1002/9780470015902.a0029126
 {: .callout}
 
@@ -131,14 +135,22 @@ like computers when we use spreadsheets.
 The cardinal rules of using spreadsheet programs for data:
 
 - Leave the raw data raw - don’t change it!
-- Put each observation in its own row. An observation is each of our samples, the subjects for which we store information in the spreadsheet. 
-- Put all your variables in columns. The variables are the different pieces of information that we have about our sample (its genotype, its phenotype, its treatment, etc.). 
-- Have column names be explanatory, but without spaces. Use '-', '_' or [camel case](https://en.wikipedia.org/wiki/Camel_case) instead of a space. For instance 'library-prep-method' or 'LibraryPrep'is better than 'library preparation method' or 'prep', because computers interpret spaces in particular ways.
-- Don’t combine multiple pieces of information in one cell. Sometimes it just seems like one thing, but think if that’s the only way
-you’ll want to be able to use or sort that data. For example, instead of having a column with species and strain name (e.g. *E. coli* 
-K12) you would have one column with the species name (*E. coli*) and another with the strain name (K12). Depending on the type of 
-analysis you want to do, you may even separate the genus and species names into distinct columns.
-- Export the cleaned data to a text-based format like CSV (comma-separated values) format. This ensures that anyone can use the data, and is required by most data repositories.
+- Put each observation in its own row. An observation is each of our samples, 
+the subjects for which we store information in the spreadsheet. 
+- Put all your variables in columns. The variables are the different pieces of information 
+that we have about our sample (its genotype, its phenotype, its treatment, etc.). 
+- Have column names be explanatory, but without spaces. Use '-', '_' or 
+[camel case](https://en.wikipedia.org/wiki/Camel_case) instead of a space. 
+For instance 'library-prep-method' or 'LibraryPrep'is better than 'library preparation method' 
+or 'prep', because computers interpret spaces in particular ways.
+- Don’t combine multiple pieces of information in one cell. Sometimes it just seems 
+like one thing, but think if that’s the only way you’ll want to be able to use or sort that data. 
+For example, instead of having a column with species and strain name (e.g. *E. coli* 
+K12) you would have one column with the species name (*E. coli*) and another with 
+the strain name (K12). Depending on the type of analysis you want to do, you may
+even separate the genus and species names into distinct columns.
+- Export the cleaned data to a text-based format like CSV (comma-separated values) format. 
+This ensures that anyone can use the data, and is required by most data repositories.
 
 [![Messy spreadsheet](../fig/01_tidiness_datasheet_example_messy.png)](https://github.com/datacarpentry/organization-genomics/raw/gh-pages/files/Ecoli_metadata_composite_messy.xlsx)
 
@@ -173,10 +185,19 @@ analysis you want to do, you may even separate the genus and species names into 
 ## Heritage 
 ## Further notes on data tidiness
 
-Data organization at this point of your experiment will help facilitate your analysis later, as well as prepare your data and notes for data deposition now often required by journals and funding agencies. If this is a collaborative project, as most projects are now, it's also information that collaborators will need to interpret your data and results and is very useful for communication and efficiency.
+Data organization at this point of your experiment will help facilitate 
+your analysis later, as well as prepare your data and notes for data deposition
+now often required by journals and funding agencies. If this is a collaborative
+project, as most projects are now, it's also information that collaborators will
+need to interpret your data and results and is very useful for communication and
+efficiency.
 
-Fear not! If you have already started your project, and it's not set up this way, there are still opportunities to make updates. One of the biggest challenges is tabular data that isn't formatted so computers can use it, or has inconsistencies that make it hard to analyze.
+Fear not! If you have already started your project, and it's not set up this way, 
+there are still opportunities to make updates. One of the biggest challenges is 
+tabular data that isn't formatted so computers can use it, or has inconsistencies
+that make it hard to analyze.
 
-More practice on how to structure data is outlined in our [Data Carpentry Ecology spreadsheet lesson](http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/)
+More practice on how to structure data is outlined in our 
+[Data Carpentry Ecology spreadsheet lesson](http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/)
 
 Tools like [OpenRefine](http://www.datacarpentry.org/OpenRefine-ecology-lesson/) can help you clean your data.
