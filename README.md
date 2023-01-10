@@ -5,7 +5,7 @@
 
 [![The Carpentries Lab Review Status](http://badges.carpentries-lab.org/11_status.svg)](https://github.com/carpentries-lab/reviews/issues/11)
 
-# Projecto Organization and Management for Metagenomics
+# Project Organization and Management for Metagenomics
 Lesson on data organization and project setup for metagenomics. Part of the [Metagenomics Workshop](https://carpentries-incubator.github.io/metagenomics-workshop/)
 
 ## Contribution
