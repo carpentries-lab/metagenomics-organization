@@ -5,7 +5,7 @@ exercises: 5
 questions:
 - "What metadata should I collect?"
 - "How should I structure my sequencing data and metadata?"
-- "Which ethic considerations involve microbiome data?" 
+- "Which ethical considerations involve microbiome data and metadata?" 
 objectives:
 - "Think about and understand the types of metadata a sequencing experiment will generate."
 - "Understand the importance of metadata and potential metadata standards."
