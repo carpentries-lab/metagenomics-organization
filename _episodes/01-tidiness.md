@@ -72,7 +72,7 @@ day, or if you do, you are aware of it and give them names like A and B.
 ## Metadata: Data about the experiment
 
 Data about the experiment is usually collected in **spreadsheets**, like Excel. 
-Alongside the spreadsheet, creating a text file called **README**is convenient. 
+Alongside the spreadsheet, creating a text file called **README** is convenient. 
 This file holds information about the research project, how the samples were generated, 
 and how to read the metadata spreadsheet. 
 This information is very convenient when working on a team, and more
@@ -109,12 +109,12 @@ what the data is about.
 
 > ## Discussion 3: Ethical considerations in microbiome studies
 > The microbiomes knowledge is human's global heritage and must be ruled by ethical principles such as do good, do not harm, respect, and act justly.
-> While studying the human microbiome, there are particular concerns. For example, if you discover an infection such as HIV in the blood microbiome, would you inform the participants? What If they did not want to know? Following these principles, What other ethical considerations can you think about human microbiomes? 
+> While studying the human microbiome, there are particular concerns. For example, if you discover an infection such as HIV in the blood microbiome, would you inform the participants? What If they did not want to know? Following these principles, what other ethical considerations can you think about human microbiomes? 
 > > ## Solution
 > > 1. Respect: Ask participants to sign explicit prior informed consent.  
 > > 2. Do good: Share the data but protect participant's privacy
-> > 3. Do not harm: establish a policy about results communications. 
-> > 4. Do not harm: Consider the Invasiveness of sampling and minimize the risk
+> > 3. Do no harm: establish a policy about results communications. 
+> > 4. Do no harm: Consider the Invasiveness of sampling and minimize the risk
 > > 5. Act justly: Favor diversity of subjects and justice  
 > > More information about these topics is developed by Mc Guire et al. 2008 in the paper:[Ethical, legal, and social considerations in conducting the Human Microbiome Project](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4024738/) and by Lange et al. 2022 in:
 > > [Microbiome ethics, guiding principles for microbiome research, use and knowledge management](https://environmentalmicrobiome.biomedcentral.com/articles/10.1186/s40793-022-00444-y)'
@@ -193,6 +193,8 @@ Fear not! If you have already started your project and it is not set up this way
 there are still opportunities to make updates. One of the biggest challenges is 
 tabular data that is not formatted so computers can use it or has inconsistencies
 that make it hard to analyze.
+
+When working in the command line, it is problematic to put spaces in the names of directories and files. 
 
 More practice on how to structure data is outlined in our 
 [Data Carpentry Ecology spreadsheet lesson](http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/)
