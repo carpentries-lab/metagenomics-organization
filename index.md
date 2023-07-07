@@ -19,7 +19,6 @@ possible.
   
     
 In this lesson, we'll be using data from a study of experimental evolution using data from [Cuatro Ciénegas Basin](https://elifesciences.org/articles/49816). In this study, there are several types of files:
-<!--- just [Lake Hazen Sediment and Soil Metagenomes](http://www.datacarpentry.org/organization-genomics/data/)--->
   
 - spreadsheet data from the experiment that tracks the microbiome and its phenotype over time
 - spreadsheet data with information on the samples that were sequenced, the names of the samples, 
@@ -33,7 +32,7 @@ In this lesson, you will learn the following:
 
 - How to structure your metadata, tabular data, and information about the experiment. 
 - The metadata is the information about the experiment and the samples you're sequencing.
-- How to prepare for, understand, organize and store the sequencing data that comes back from the sequencing center.
+- How to prepare for, understand, organize, and store the sequencing data that comes back from the sequencing center.
 - How to access and download publicly available data that may need to be used in your bioinformatics analysis.
 
 > ## Getting Started
@@ -46,15 +45,15 @@ In this lesson, you will learn the following:
 > This lesson is part of a workshop that uses data hosted on an Amazon Machine Instance (AMI). Workshop participants will be given 
 > information on how
 > to log in to the AMI during the workshop. Learners using these materials for the self-directed study will need to set up their own
-> AMI. Information on setting up an AMI and accessing the required data is provided on the [Metagenomics Workshop Setup page](https://carpentries-incubator.github.io/metagenomics-workshop/setup.html).
+> AMI. Information on setting up an AMI and accessing the required data is provided on the [Metagenomics Workshop Setup page](https://carpentries-lab.github.io/metagenomics-workshop/setup.html).
 {: .prereq}
 
 > ## For Instructors
 > If you are teaching this lesson in a workshop, please see the
-> [Instructor notes](guide/).
+> [Instructor notes](https://carpentries-lab.github.io/metagenomics-workshop/guide/index.html).
 {: .prereq}
 
-This lesson is the first one of the [Metagenomics Workshop](https://carpentries-incubator.github.io/metagenomics-workshop/), comprised of four lessons. 
+This lesson is the first one of the [Metagenomics Workshop](https://carpentries-lab.github.io/metagenomics-workshop/), comprised of four lessons. 
 
 ## Lesson Reference
 This page and the three episodes in this lesson are adapted from the lesson [Project Organization and Management for Genomics](https://datacarpentry.org/organization-genomics/).
